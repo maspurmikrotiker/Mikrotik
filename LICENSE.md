@@ -1,0 +1,1 @@
+Bebas Pakai / GNU OpenSource
