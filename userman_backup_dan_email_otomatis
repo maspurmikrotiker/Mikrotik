@@ -1,0 +1,9 @@
+Script backup userman
+
+:if ([:len [/file find name=um-ariaewes.umb]] > 0) do={/file remove um-ariaewes.umb };/tool user-manager database save name=um-ariaewes.umb;
+
+scirpt kirim email
+/tool e-mail send to=maspurmikrotiker@gmail.com subject="userman-cloud" body="backup userman" file="um-ariaewes.umb" start-tls=yes
+
+buat scheduller backup dan kirim email setiap 1 jam
+selisih 30 menit antara backup dan kirim email
