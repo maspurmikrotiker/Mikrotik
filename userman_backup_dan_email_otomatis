@@ -7,3 +7,12 @@ scirpt kirim email
 
 buat scheduller backup dan kirim email setiap 1 jam
 selisih 30 menit antara backup dan kirim email
+
+====================================
+Format email
+====================================
+port : 587
+TLS :yes
+from : radcloud70@gmail.com
+user: radcloud70
+admin: admin2135
