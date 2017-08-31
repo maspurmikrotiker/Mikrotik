@@ -5,6 +5,14 @@ Script backup userman
 scirpt kirim email
 /tool e-mail send to=maspurmikrotiker@gmail.com subject="userman-cloud" body="backup userman" file="um-ariaewes.umb" start-tls=yes
 
+WAYAN CARIK
+backup-db
+:if ([:len [/file find name=carik-db.umb]] > 0) do={/file remove carik-db.umb };/tool user-manager database save name=carik-db.umb
+
+e-mail
+/tool e-mail send to=maspurmikrotiker@gmail.com cc=carikmetro@gmail.com subject="userman-cloud" body="backup userman" file="carik-db.umb" tls=yes
+
+####
 buat scheduller backup dan kirim email setiap 1 jam
 selisih 30 menit antara backup dan kirim email
 
