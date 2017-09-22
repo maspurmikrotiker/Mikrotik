@@ -1,0 +1,8 @@
+Script Disable dan Enable berdasarkan comment di Mikrotik
+bisa digunakan utk netwatch dan dns
+
+## enable
+/ip firewall nat enable [/ip firewall nat find comment="dnspro"]
+
+## disable
+/ip firewall nat disable [/ip firewall nat find comment="dnspro"]
