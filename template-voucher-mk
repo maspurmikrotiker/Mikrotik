@@ -1,0 +1,21 @@
+<table style="color: #000; text-align: left; width: 350px; height: 210px; border: 1px solid #999999; margin-bottom: 5px; margin-right: 5px; float: left;" border="0" cellspacing="2" cellpadding="2">
+<tbody>
+<tr align="left" valign="top">
+<td style="border-bottom: 1px solid black;" colspan="2" rowspan="1" valign="undefined"><big><span style="font-weight: bold;">Manguni.ID</span></big><br /> <small>Tondano, Sulut<br />Tlp/WA. 08123xxxxxx</small></td>
+</tr>
+<tr>
+<td><small><strong>Paket</strong><br />%u_actualProfileName%</small></td>
+<td style="text-align: left;"><small><strong>Harga</strong><br />Rp. %u_moneyPaid%</small></td>
+</tr>
+<tr>
+<td><small><strong>UserName</strong></small><br />%u_username%</td>
+<td style="text-align: left;"><small><strong>Password</strong></small><br />%u_password%</td>
+</tr>
+<tr align="left">
+<td style="border-top: 1px solid black;" colspan="2" rowspan="1" valign="top"><small> <span style="font-weight: bold;">Gunakan akun ini untuk menikmati layanan hotspot kami, Terima Kasih</span></small></td>
+</tr>
+<tr align="right">
+<td colspan="2" rowspan="1"><small style="font-weight: bold;">&copy;2018 Manguni.ID&trade;</small></td>
+</tr>
+</tbody>
+</table>
