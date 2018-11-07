@@ -14,7 +14,6 @@ GATEWAY=`ip route list | grep default | cut -d' ' -f 3` && \
 echo "/ip address add address=$ADDRESS interface=[/interface ethernet find where name=ether1]
 /ip route add gateway=$GATEWAY
 /ip service disable telnet
-/user set 0 name=root password=xxxxxx
  " > /mnt/rw/autorun.scr && \
 umount /mnt && \
 echo "Magic constant is 65537 (second partition address). You can check it with fdisk before appliyng this" && \
