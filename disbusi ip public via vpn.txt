@@ -1,0 +1,91 @@
+pagi ini ane meremote router. trus dirouter menggunakan IP publik CIDR /25
+nah, ip publik tersebut pengen didistirbusikan via pptp (router as pptp server)
+bagaimana caranya? kita gunakan BCP, based from 
+
+IP public = 123.45.67.128/25, GW 123.45.67.254
+to the point.
+
+1. add bridge
+Code:
+/interface bridge add name=Public protocol-mode=rstp
+
+
+2. add interface ethernet yang mengarah ke WAN sebagai port Bridge
+Code:
+/interface bridge port add interface=eth1 bridge=Public
+
+3. add IP ke bridge "Public"
+Code:
+/ip address add address=123.45.67.129/25 interface=Public
+
+4. add sebagai default route
+Code:
+/ip route add dst-address=0.0.0.0/0 gateway=123.45.67.254
+so, router udah bisa internetan Click here to enlarge
+Code:
+admin@MikroTik > ip route pr  
+Flags: X - disabled, A - active, D - dynamic, 
+C - connect, S - static
+ #      DST-ADDRESS        PREF-SRC        GATEWAY            DISTANCE
+ 0 A S  0.0.0.0/0                          123.45.67.254          1
+ 3 ADC  123.45.67.128/25   123.45.67.129   Public                 0
+ 4 ADC  172.16.1.0/30      172.16.1.1      ether4                 0
+ 5 ADC  192.168.42.0/24    192.168.42.127  ether3                 0
+
+5. enable pptp server
+Code:
+/interface pptp-server server set enabled=yes
+
+6. set profile pptp
+nah.. sebelum create pastikan IP pool diset
+ip yang telah terpakai adalah 123.45.67.129 dan 123.45.67.254 maka ip yang tersedia x.130- x.253
+
+Code:
+/ip pool add name=pptp-public ranges=123.45.67.130-123.45.67.253
+gunakan di profile
+
+Code:
+/ppp profile add name=myclient bridge=Public remote-address=pptp-public local-address=123.45.67.129
+perlu diperhatikan, kita menggunakan local address yang sama dengan ip di interface public.
+
+7. so, create client-secret
+Code:
+/ppp secret add name=user1 password=12345 profile=myclient service=pptp
+
+its ok, sekarang pindah ke router client
+
+1. create pptp client di router client
+Code:
+client@MikroTik > /interface pptp-client add user=user1 password=12345 profile=default connect-to=123.45.67.129
+dan running
+Code:
+client@MikroTik > interface pptp-client pr  
+Flags: X - disabled, R - running 
+ 0  R name="pptp-out1" max-mtu=1460 max-mru=1460 mrru=disabled 
+      connect-to=123.45.67.129 user="user1" password="12345" 
+      profile=default-encryption add-default-route=no dial-on-demand=no 
+      allow=pap,chap,mschap1,mschap2
+
+nah.. di router pptp server akan muncul IP dynamic kaya gini
+Code:
+admin@MikroTik >/ip address print
+11    123.45.67.129/25    123.45.67.128    Public
+12 D 123.45.67.129/32    123.45.67.150    <pptp-user1>
+itu gpp.. ip publik sekarang berada di client.. 
+
+nah.. permasalahannya muncul.. klien tidak bisa konek ke internet via pptp (jika dijadikan sebagai default route)
+
+ternyata masalahnya di MAC-Address.. dan ini berkaitan dengan ARP
+so interface bridge=Public kita set sebagai proxy ARP
+
+Code:
+admin@MikroTik >/interface bridge set Public arp=proxy-arp
+Code:
+interface bridge print
+Flags: X - disabled, R - running 
+ 0  R name="Public" mtu=1500 l2mtu=65535 arp=proxy-arp 
+      mac-address=00:00:00:00:00:00 protocol-mode=rstp priority=0x8000 
+      auto-mac=yes admin-mac=00:00:00:00:00:00 max-message-age=20s 
+      forward-delay=15s transmit-hold-count=6 ageing-time=5m
+dan router client pun udah bisa diremote dari public.. (kalo pool dirubah ke static)
+udah.. gitu aja.
