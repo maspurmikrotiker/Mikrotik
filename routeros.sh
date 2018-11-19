@@ -22,8 +22,7 @@ set telnet disabled=yes
 set ftp disabled=yes
 set www disabled=yes
 set ssh disabled=yes
-/
-" > /mnt/rw/autorun.scr && \
+ " > /mnt/rw/autorun.scr && \
 umount /mnt && \
 echo "Magic constant is 65537 (second partition address). You can check it with fdisk before appliyng this" && \
 echo "This scary sequence removes seconds partition on nbd0 and creates new, but bigger one" && \
