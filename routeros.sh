@@ -1,24 +1,35 @@
-wget http://download2.mikrotik.com/routeros/6.42.9/chr-6.42.9.img.zip -O chr.img.zip
-### ganti versi terbaru, versi long-term-services
-#######
-#######
-gunzip -c chr.img.zip > chr.img  && \
 apt-get update && \
+
+apt install -y gunzip && \
+
 apt install -y qemu-utils pv && \
+
+wget http://download2.mikrotik.com/routeros/6.42.9/chr-6.42.9.img.zip -O chr.img.zip
+ && \
+
+gunzip -c chr.img.zip > chr.img  && \
+
 qemu-img convert chr.img -O qcow2 chr.qcow2 && \
+
 qemu-img resize chr.qcow2 `fdisk /dev/vda -l | head -n 1 | cut -d',' -f 2 | cut -d' ' -f 2` && \
 modprobe nbd && \
 qemu-nbd -c /dev/nbd0 chr.qcow2 && \
-echo "Give some time for qemu-nbd to be ready" && \
-sleep 2 && \
-partx -a /dev/nbd0 && \
+echo "Tunggulah persiapan qemu-nbd" && \
+sleep 5 && \
+partprobe /dev/nbd0 && \
 mount /dev/nbd0p2 /mnt && \
 ADDRESS=`ip addr show eth0 | grep global | cut -d' ' -f 6 | head -n 1` && \
 GATEWAY=`ip route list | grep default | cut -d' ' -f 3` && \
 echo "/ip address add address=$ADDRESS interface=[/interface ethernet find where name=ether1]
 /ip route add gateway=$GATEWAY
-/ip service disable telnet
- " > /mnt/rw/autorun.scr && \
+/ip dns set servers=8.8.8.8,8.8.4.4
+/ip service
+set telnet disabled=yes
+set ftp disabled=yes
+set www disabled=yes
+set ssh disabled=yes
+/
+" > /mnt/rw/autorun.scr && \
 umount /mnt && \
 echo "Magic constant is 65537 (second partition address). You can check it with fdisk before appliyng this" && \
 echo "This scary sequence removes seconds partition on nbd0 and creates new, but bigger one" && \
@@ -43,3 +54,4 @@ echo "sync disk" && \
 echo s > /proc/sysrq-trigger && \
 echo "Ok, reboot" && \
 echo b > /proc/sysrq-trigger
+ 
