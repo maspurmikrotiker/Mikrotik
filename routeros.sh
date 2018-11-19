@@ -1,3 +1,7 @@
+wget http://download2.mikrotik.com/routeros/6.42.9/chr-6.42.9.img.zip -O chr.img.zip
+### ganti versi terbaru, versi long-term-services
+#######
+#######
 gunzip -c chr.img.zip > chr.img  && \
 apt-get update && \
 apt install -y qemu-utils pv && \
