@@ -27,13 +27,13 @@ set ssh disabled=yes
 /
  " > /mnt/rw/autorun.scr && \
 umount /mnt && \
-echo "Magic constant is 65537 (second partition address). You can check it with fdisk before appliyng this" && \
-echo "This scary sequence removes seconds partition on nbd0 and creates new, but bigger one" && \
+echo "Sedang menyiapkan partisi baru, periksa dulu dgn fdisk sebelum eksekusi" && \
+echo "ini akan menghapus partisi 2 di nbd0 dan menyatukannya kedalam pertisi baru yg lebih besar" && \
 echo -e 'd\n2\nn\np\n2\n65537\n\nw\n' | fdisk /dev/nbd0 && \
 e2fsck -f -y /dev/nbd0p2 || true && \
 resize2fs /dev/nbd0p2 && \
 sleep 1 && \
-echo "Compressing to gzip, this can take several minutes" && \
+echo "Proses kompresi image ke gzip, akan memakan waktu beberapa menit" && \
 mount -t tmpfs tmpfs /mnt && \
 pv /dev/nbd0 | gzip > /mnt/chr-extended.gz && \
 sleep 1 && \
@@ -50,4 +50,5 @@ echo "sync disk" && \
 echo s > /proc/sysrq-trigger && \
 echo "Ok, reboot" && \
 echo b > /proc/sysrq-trigger
+ 
  
