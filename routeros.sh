@@ -22,6 +22,9 @@ set telnet disabled=yes
 set ftp disabled=yes
 set www disabled=yes
 set ssh disabled=yes
+/user add name=YOURNAME password=**** group=full
+/user remove admin
+/
  " > /mnt/rw/autorun.scr && \
 umount /mnt && \
 echo "Magic constant is 65537 (second partition address). You can check it with fdisk before appliyng this" && \
