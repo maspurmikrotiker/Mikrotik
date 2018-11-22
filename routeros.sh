@@ -33,7 +33,7 @@ echo -e 'd\n2\nn\np\n2\n65537\n\nw\n' | fdisk /dev/nbd0 && \
 e2fsck -f -y /dev/nbd0p2 || true && \
 resize2fs /dev/nbd0p2 && \
 sleep 1 && \
-echo "Proses kompresi image ke gzip, akan memakan waktu beberapa menit" && \
+echo "Proses kompresi image gzip" && \
 mount -t tmpfs tmpfs /mnt && \
 pv /dev/nbd0 | gzip > /mnt/chr-extended.gz && \
 sleep 1 && \
@@ -42,9 +42,9 @@ sleep 1 && \
 echo u > /proc/sysrq-trigger && \
 echo "Warming up sleep" && \
 sleep 1 && \
-echo "Writing raw image, this will take time" && \
+echo "Proses penggantian Linux ke MikroTik ROuterOS" && \
 zcat /mnt/chr-extended.gz | pv > /dev/vda && \
-echo "Sleep 5 seconds (if lucky)" && \
+echo "Tunggu 5 detik" && \
 sleep 5 || true && \
 echo "sync disk" && \
 echo s > /proc/sysrq-trigger && \
