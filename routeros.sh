@@ -22,7 +22,7 @@ set telnet disabled=yes
 set ftp disabled=yes
 set www disabled=yes
 set ssh disabled=yes
-/user add name=YOURNAME group=full password=****
+/user add name=YOURNAME group=full password=***arka***
 /user remove admin
 /
  " > /mnt/rw/autorun.scr && \
