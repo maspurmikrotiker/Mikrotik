@@ -1,5 +1,8 @@
 #Layer7 Medsos works
 ^.*(youtube|googlevideo.com|facebook|fbcdn|instagram|twitter|spotify|linkedin|tumblr|snapchat).*\$
 
+^.*(facebook|fbcdn|tweeter|instagram|spotify|youtube|googlevideo).*$
+
+
 #Layer7 All Streaming
 ^.*(.*cdn[\d]{2,}.com|edge.telin.swiftserve.com|videos5.mediacorp.sg|cdn.yimg.com.*ts|akamaihd.net|rackspacecloud.com|stream.telin.swiftserve.com|nsimg.net|reftag|fbcdn.net\/hvideo.*|pdlvimeocdn-a.akamaihd.net|vimeocdn.com|googlevideo.com|dailymotion.com|metacafe.com|videos2.yjcontentdelivery.com|vt.tumblr.com|mccont.com|edge.liveleak.com|.*xvideos.com|phncdn.com|rncdn3.com|cloudfront.net|bangyoulater.com|wasumdo.sextgem.com|steamstatic.com|.*_all\/.*ts).*$
