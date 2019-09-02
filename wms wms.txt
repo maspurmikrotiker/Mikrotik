@@ -1,0 +1,20 @@
+:local ip [/ip address get [/ip address find interface="wlan2"] address]; 
+:local mac [/interface wireless get [ find default-name=wlan2 ] mac-address]; 
+:local ip [put [:pick $ip 0 [:find $ip "/"]]]; 
+
+:log warning "$ip - $mac"; 
+:local CheckMainISP [/ping 8.8.8.8 count=3]; 
+:if ($CheckMainISP>0) do={ 	
+	:log warning "PING $CheckMainISP - OK - WMS terhubung..."; 
+} else { 	
+	:log error "PING kurang stabil - mencoba PING lagi..."; 	
+	:local ping2 [/ping 8.8.8.8 count=3]; 	 	:
+		if ($ping2>0) do={ 		
+			:log warning "PING $ping2 - OK - WMS terhubung..."; 	
+		} else { 		
+			:log error ("Mencoba login WMS..."); 		
+			/tool fetch http-method=post http-header-field="User-Agent:Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0" http-data="username_=usernamekamu&username=usernamekamu.h7ys%40freeMS&password=acehacehku2019" url=("https://welcome2.wifi.id/wms/auth/authnew/autologin/quarantine.php\?ipc=$ip&gw_id=WAG-D1-PUB&mac=$mac&wlan=BIRMGD00010/TLK-WI32411550-0001:TOSERDA@WIFI.ID") keep-result=no 	
+			:beep frequency=4000 length=500ms; 		
+			:log warning "Login berhasil WMS terhubung kembali..."; 	
+		} 
+}
