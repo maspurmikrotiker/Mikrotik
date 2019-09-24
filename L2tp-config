@@ -1,0 +1,33 @@
+# sep/23/2019 14:47:43 by RouterOS 6.44.5
+# software id = 
+#
+#
+#
+/interface ethernet
+set [ find default-name=ether1 ] disable-running-check=no
+/interface wireless security-profiles
+set [ find default=yes ] supplicant-identity=MikroTik
+
+/interface l2tp-server server
+set allow-fast-path=yes enabled=yes ipsec-secret=Rahasia123 \
+    one-session-per-host=yes use-ipsec=yes
+/interface pptp-server server
+set enabled=yes
+/interface sstp-server server
+set default-profile=default-encryption enabled=yes
+/ip firewall filter
+add action=fasttrack-connection chain=forward
+/ip firewall nat
+add action=masquerade chain=srcnat
+/ip service
+set telnet disabled=yes
+set ftp disabled=yes
+set ssh disabled=yes
+/ppp secret
+add comment="test // tgl 21" local-address=10.217.250.1 name=\
+    2019009213002 password=nvr77 remote-address=10.217.250.2
+
+/system clock
+set time-zone-autodetect=no time-zone-name=Asia/Jakarta
+/system ntp client
+set enabled=yes primary-ntp=210.23.25.77 secondary-ntp=165.22.96.232
