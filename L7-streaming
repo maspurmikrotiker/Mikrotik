@@ -6,3 +6,9 @@
 
 #Layer7 All Streaming
 ^.*(.*cdn[\d]{2,}.com|edge.telin.swiftserve.com|videos5.mediacorp.sg|cdn.yimg.com.*ts|akamaihd.net|rackspacecloud.com|stream.telin.swiftserve.com|nsimg.net|reftag|fbcdn.net\/hvideo.*|pdlvimeocdn-a.akamaihd.net|vimeocdn.com|googlevideo.com|dailymotion.com|metacafe.com|videos2.yjcontentdelivery.com|vt.tumblr.com|mccont.com|edge.liveleak.com|.*xvideos.com|phncdn.com|rncdn3.com|cloudfront.net|bangyoulater.com|wasumdo.sextgem.com|steamstatic.com|.*_all\/.*ts).*$
+
+#Layar7Download
+/ip firewall layer7-protocol
+add name=files regexp="^.*get.+\\.(exe|rar|zip|7z|cab|asf|mov|wmv|mpg|mpeg|mkv\
+    |avi|flv|pdf|wav|rm|mp3|mp4|ram|rmvb|dat|daa|iso|nrg|bin|vcd|mp2|3gp|mpe|q\
+    t|raw|wma|ogg|doc|deb|tar|bzip|gzip|gzip2|0[0-9][0-9]).*\$"
