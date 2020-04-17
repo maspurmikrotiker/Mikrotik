@@ -10,7 +10,7 @@ wget https://download.mikrotik.com/routeros/6.44.5/chr-6.44.5.img.zip -O chr.img
 gunzip -c chr.img.zip > chr.img
 mount -o loop,offset=33554944 chr.img /mnt
 
-jika error cek paka perintah ini:
+jika error -lakukan perintah ini:
 fdisk -lu chr.img
 mount -t auto -o loop,offset=$((1*512)) chr.img /mnt/
 ADDRESS=`ip addr show eth0 | grep global | cut -d' ' -f 6 | head -n 1` && \
