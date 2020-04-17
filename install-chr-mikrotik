@@ -1,12 +1,16 @@
 ==
-cek ip=inet 174.138.23.88
-cek gw 167.71.208.1
-ip route list | grep default
+0. catat ip vps
+1. Login sebagai root
+2. catat gateway
+-cara melihat gateway:
+ # ip route list | grep default
 
 =proses install
 wget https://download.mikrotik.com/routeros/6.44.5/chr-6.44.5.img.zip -O chr.img.zip
 gunzip -c chr.img.zip > chr.img
 mount -o loop,offset=33554944 chr.img /mnt
+
+jika error cek paka perintah ini:
 fdisk -lu chr.img
 mount -t auto -o loop,offset=$((1*512)) chr.img /mnt/
 ADDRESS=`ip addr show eth0 | grep global | cut -d' ' -f 6 | head -n 1` && \
@@ -16,10 +20,21 @@ echo "/ip address add address=$ADDRESS interface=[/interface ethernet find where
 /user add name=maspur group=full password=5090123
 " > /mnt/rw/autorun.scr && \
 umount /mnt && \
-echo u > /proc/sysrq-trigger && \
+echo u > /proc/sysrq-trigger
+
+==tekan enter== dan lihat reaksinya, muncul error tidak===
+==lanjut ke perintah berikut===
 dd if=chr.img bs=1024 of=/dev/vda
 
-/
+=install chr is done=
+==reboot dari control panel vps===
+===masuk winbox==
+=== buat akun: superadmin===
+=== hapus akun admin ==
+== keluar winbox dan masuk lagi, login pake superadmin yg baru==
+===amankan vps karena ip public rentan berbagai serangan===
+===aktifkan vpn server ===
+===selesai===
 
 
 
