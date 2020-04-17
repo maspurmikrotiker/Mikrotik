@@ -32,7 +32,7 @@ dd if=chr.img bs=1024 of=/dev/vda
 === buat akun: superadmin===
 === hapus akun admin ==
 == keluar winbox dan masuk lagi, login pake superadmin yg baru==
-===amankan vps karena ip public rentan berbagai serangan===
+===amankan vps menggunakan firewall-filter, karena ip public rentan berbagai serangan===
 ===aktifkan vpn server ===
 ===selesai===
 
