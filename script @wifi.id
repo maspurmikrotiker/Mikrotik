@@ -1,0 +1,21 @@
+:local username "6822334832215789"
+:local password "bqa"
+:local iface "ether2"
+
+:local gw "8.8.8.8"
+
+:local ipwan [/ip address get [/ip address find interface=$iface] address]
+
+:local ipwan [put [:pick $ipwan 0 [:find $ipwan "/"]]]
+
+:local checkping "4"
+
+:if ([/ping $gw interval=0.5 count=$checkping interface=$iface] = 0) do={
+
+:log warning "$iface {link down} trying to connect..."
+
+/tool fetch http-method=post http-data="username=$username@spin2&password=$password" url=("https://welcome2.wifi.id/authnew/login/check_login.php?ipc=$ipwan&gw_id=WAG-D4-KBU&mac=$mac&redirect=&wlan=") keep-result=no http-header-field="User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:12.0) Gecko/20100101 Firefox/5.0" 
+
+} else {
+
+}
