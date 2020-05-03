@@ -1,0 +1,1524 @@
+/ip firewall address-list
+add address=31.13.24.0/21 comment="Facebook Ireland" list=sosmed
+add address=31.13.64.0/18 comment="Facebook Ireland" list=sosmed
+add address=31.13.64.0/19 comment="Facebook Ireland" list=sosmed
+add address=31.13.64.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.65.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.66.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.67.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.68.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.69.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.70.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.71.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.72.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.73.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.74.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.75.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.76.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.78.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.80.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.81.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.82.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.83.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.84.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.85.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.86.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.87.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.90.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.91.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.92.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.94.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.95.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.96.0/19 comment="Facebook Ireland" list=sosmed
+add address=45.64.40.0/22 comment="Facebook Singapore Pte Ltd. Singapore" \
+    list=sosmed
+add address=66.220.144.0/20 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=66.220.144.0/21 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=66.220.152.0/21 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=69.63.176.0/20 comment="Facebook, Inc. United States" list=sosmed
+add address=69.63.176.0/21 comment="Facebook, Inc. United States" list=sosmed
+add address=69.63.184.0/21 comment="Facebook, Inc. United States" list=sosmed
+add address=69.171.224.0/19 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=69.171.224.0/20 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=69.171.239.0/24 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=69.171.240.0/20 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=69.171.255.0/24 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=74.119.76.0/22 comment="Facebook, Inc. United States" list=sosmed
+add address=103.4.96.0/22 comment=" Temasek Avenue Singapore" list=sosmed
+add address=157.240.0.0/17 comment="Facebook, Inc. United States" list=sosmed
+add address=157.240.1.0/24 comment="Facebook, Inc. United States" list=sosmed
+add address=157.240.2.0/24 comment="Facebook, Inc. United States" list=sosmed
+add address=157.240.3.0/24 comment="Facebook, Inc. United States" list=sosmed
+add address=157.240.6.0/24 comment="Facebook, Inc. United States" list=sosmed
+add address=157.240.7.0/24 comment="Facebook, Inc. United States" list=sosmed
+add address=157.240.8.0/24 comment="Facebook, Inc. United States" list=sosmed
+add address=157.240.9.0/24 comment="Facebook, Inc. United States" list=sosmed
+add address=157.240.10.0/24 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=157.240.11.0/24 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=157.240.12.0/24 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=157.240.13.0/24 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=157.240.14.0/24 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=157.240.15.0/24 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=157.240.16.0/24 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=157.240.18.0/24 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=157.240.20.0/24 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=157.240.21.0/24 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=157.240.22.0/24 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=173.252.64.0/19 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=173.252.88.0/21 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=173.252.96.0/19 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=179.60.192.0/22 comment="Edge Network Services Ltd United States" \
+    list=sosmed
+add address=179.60.192.0/24 comment="Edge Network Services Ltd United States" \
+    list=sosmed
+add address=179.60.193.0/24 comment="Edge Network Services Ltd United States" \
+    list=sosmed
+add address=179.60.195.0/24 comment="Edge Network Services Ltd United States" \
+    list=sosmed
+add address=185.60.216.0/22 comment="Facebook Ireland" list=sosmed
+add address=185.60.216.0/24 comment="Facebook Ireland" list=sosmed
+add address=185.60.218.0/24 comment="Facebook Ireland" list=sosmed
+add address=185.60.219.0/24 comment="Facebook Ireland" list=sosmed
+add address=204.15.20.0/22 comment="Facebook, Inc. United States" list=sosmed
+add address=64.63.0.0/18 comment="MoPub, Inc. United States" list=sosmed
+add address=69.195.160.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.162.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.163.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.164.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.165.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.166.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.168.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.169.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.171.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.172.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.173.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.175.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.176.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.177.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.178.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.179.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.180.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.181.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.182.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.184.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.185.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.186.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.187.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.188.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.189.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.190.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.191.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=103.252.112.0/23 comment=\
+    "60 Robinson Road, #11-02 BEA Building, Singapore 068892. Singapore" \
+    list=sosmed
+add address=103.252.114.0/23 comment=\
+    "60 Robinson Road, #11-02 BEA Building, Singapore 068892. Singapore" \
+    list=sosmed
+add address=104.244.40.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=104.244.41.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=104.244.42.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=104.244.43.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=104.244.44.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=104.244.45.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=104.244.46.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=104.244.47.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=185.45.5.0/24 comment="Twitter International Company Ireland" \
+    list=sosmed
+add address=185.45.6.0/23 comment="Twitter International Company Ireland" \
+    list=sosmed
+add address=188.64.224.0/24 comment="Heron SAS France" list=sosmed
+add address=188.64.225.0/24 comment="Heron SAS France" list=sosmed
+add address=188.64.226.0/23 comment="Heron SAS France" list=sosmed
+add address=188.64.226.0/24 comment="Heron SAS France" list=sosmed
+add address=188.64.227.0/24 comment="Heron SAS France" list=sosmed
+add address=188.64.228.0/24 comment="Heron SAS France" list=sosmed
+add address=188.64.229.0/24 comment="Heron SAS France" list=sosmed
+add address=192.44.69.0/24 comment="Crashlytics, Inc United States" list=\
+    sosmed
+add address=192.133.76.0/22 comment="Twitter Inc. United States" list=sosmed
+add address=192.133.76.0/23 comment="Twitter Inc. United States" list=sosmed
+add address=199.16.156.0/22 comment="Twitter Inc. United States" list=sosmed
+add address=199.16.156.0/23 comment="Twitter Inc. United States" list=sosmed
+add address=199.59.148.0/22 comment="Twitter Inc. United States" list=sosmed
+add address=199.96.56.0/23 comment="Twitter Inc. United States" list=sosmed
+add address=199.96.56.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=199.96.57.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=199.96.58.0/23 comment="Twitter Inc. United States" list=sosmed
+add address=199.96.60.0/23 comment="Twitter Inc. United States" list=sosmed
+add address=199.96.60.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=199.96.61.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=199.96.62.0/23 comment="Twitter Inc. United States" list=sosmed
+add address=202.160.128.0/24 comment=\
+    "Twitter Asia Pacific Pte. Ltd. Singapore" list=sosmed
+add address=202.160.129.0/24 comment=\
+    "Twitter Asia Pacific Pte. Ltd. Singapore" list=sosmed
+add address=202.160.130.0/24 comment=\
+    "Twitter Asia Pacific Pte. Ltd. Singapore" list=sosmed
+add address=202.160.131.0/24 comment=\
+    "Twitter Asia Pacific Pte. Ltd. Singapore" list=sosmed
+add address=209.237.192.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.193.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.194.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.195.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.196.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.197.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.198.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.199.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.200.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.201.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.204.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.205.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.206.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.207.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.208.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.209.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.210.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.211.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.212.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.213.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.214.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.215.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.216.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.217.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.218.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.219.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.220.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.221.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.222.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.223.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=91.108.56.0/24 comment=TELEGRAM list=sosmed
+add address=149.154.164.0/22 comment="Telegram Messenger Network GB" list=\
+    sosmed
+add address=31.13.93.0/24 comment=" Facebook " list=sosmed
+add address=199.201.67.0/24 comment=" Facebook Inc " list=sosmed
+add address=199.201.66.0/24 comment=" Facebook Inc " list=sosmed
+add address=199.201.65.0/24 comment=" Facebook Inc " list=sosmed
+add address=199.201.64.0/24 comment=" Facebook Inc " list=sosmed
+add address=199.201.64.0/22 comment=" Facebook Inc " list=sosmed
+add address=157.240.192.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.191.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.190.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.19.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.189.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.188.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.187.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.186.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.185.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.184.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.183.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.182.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.178.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.168.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.167.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.166.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.165.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.164.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.163.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.162.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.161.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.148.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.146.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.145.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.144.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.143.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.142.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.140.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.139.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.138.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.137.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.136.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.135.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.134.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.133.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.132.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.131.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.130.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.129.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=146.88.59.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=129.134.0.0/17 comment=" Facebook, Inc." list=sosmed
+add address=192.168.30.0/27 list=private-lokal
+add address=172.50.50.0/30 list=private-lokal
+add address=192.168.100.0/27 list=private-lokal
+add address=192.168.200.0/27 list=private-lokal
+add address=192.168.10.0/27 list=private-lokal
+add address=203.205.128.0/19 comment=joox list=situsdownload
+add address=190.2.128.0/20 comment=Ravidvideo list=situsdownload
+add address=54.39.0.0/16 comment=Rapidvideo list=situsdownload
+add address=54.39.103.0/24 comment=Rapidvideo list=situsdownload
+add address=50.7.230.0/24 comment=Rapidvideo list=situsdownload
+add address=50.7.192.0/18 comment=Rapidvideo list=situsdownload
+add address=190.2.128.0/19 comment=Ravidvideo list=situsdownload
+add address=54.0.0.0-54.191.255.255 comment=Playercdn.net list=situsdownload
+add address=54.128.0.0/10 comment=Playercdn.net list=situsdownload
+add address=54.0.0.0/9 comment=Playercdn.net list=situsdownload
+add address=5.135.128.0/22 comment=Playercdn.net list=situsdownload
+add address=104.17.158.0/24 comment=oload.stream list=situsdownload
+add address=104.16.166.0/24 comment=openload.co list=situsdownload
+add address=185.144.81.0/24 comment=oloadcdn list=situsdownload
+add address=104.31.114.0/24 comment=openloadmovies.net list=situsdownload
+add address=188.240.220.0/24 comment=Vev.io list=situsdownload
+add address=185.144.80.0/24 comment=oload list=situsdownload
+add address=142.44.0.0/16 comment=Ravidvideo list=situsdownload
+add address=178.128.0.0/16 comment=tvbersama list=situsdownload
+add address=185.163.109.0/24 comment=openload.co list=situsdownload
+add address=103.16.78.0/24 comment=terafile.net list=situsdownload
+add address=185.195.18.0/24 comment=openload.co list=situsdownload
+add address=37.48.64.0-37.48.120.255 comment=wutu list=situsdownload
+add address=162.210.192.0/21 comment=wutu list=situsdownload
+add address=142.234.0.0/16 comment=wutu list=situsdownload
+add address=158.69.0.0/16 comment=openload.co disabled=yes list=situsdownload
+add address=185.163.111.0/24 comment=openload.co list=situsdownload
+add address=202.83.120.0/22 comment=tvonline.id list=situsdownload
+add address=103.195.32.0/24 comment=dailymotion list=situsdownload
+add address=47.246.14.0/24 comment=metube.id list=situsdownload
+add address=210.210.155.0/24 comment=tvonline.id list=situsdownload
+add address=110.0.0.0/8 comment=itvonline.id list=situsdownload
+add address=185.132.134.0/24 comment=wutu list=situsdownload
+add address=212.8.243.0/24 comment=wutu list=situsdownload
+add address=51.255.74.0/24 comment=manggovideo list=situsdownload
+add address=145.239.0.0/16 comment=streammanggo list=situsdownload
+add address=5.196.84.0/22 comment=openload.co list=situsdownload
+add address=84.16.243.0/24 comment=netu list=situsdownload
+add address=151.80.0.0/16 comment=streamango list=situsdownload
+add address=66.70.128.0/17 comment=streamcherry list=situsdownload
+add address=185.123.141.0/24 comment=openload.co list=situsdownload
+add address=185.144.83.0/24 comment=openload.co list=situsdownload
+add address=103.7.0.0/24 comment=mncnowapp list=situsdownload
+add address=202.80.208.0/20 comment=mncnowapp list=situsdownload
+add address=47.74.138.0/24 comment=mncnowapp list=situsdownload
+add address=47.76.0.0/14 comment=mncnowapp list=situsdownload
+add address=47.128.0.0/9 comment=mncnowapp list=situsdownload
+add address=47.96.0.0/11 comment=mncnowapp list=situsdownload
+add address=47.74.0.0/15 comment=mncnowapp list=situsdownload
+add address=47.80.0.0/12 comment=mncnowapp list=situsdownload
+add address=104.16.0.0/12 list=situsdownload
+add address=147.135.0.0/16 comment=streamcherry list=situsdownload
+add address=51.255.77.0/24 comment=mangovideo list=situsdownload
+add address=137.74.0.0/16 comment=openload list=situsdownload
+add address=23.52.171.0/24 comment=dailymotion list=situsdownload
+add address=13.107.253.0/24 comment=tvku.online list=situsdownload
+add address=36.67.17.0/24 comment=dailymotion list=situsdownload
+add address=203.190.242.0/24 comment=detik.com list=situsdownload
+add address=118.98.106.0/24 list=youtube
+add address=199.223.232.0/21 list=youtube
+add address=207.223.160.0/20 list=youtube
+add address=208.65.152.0/22 list=youtube
+add address=208.117.224.0/19 list=youtube
+add address=209.85.128.0/17 list=youtube
+add address=216.58.192.0/19 list=youtube
+add address=216.239.32.0/19 list=youtube
+add address=118.98.111.0/24 list=youtube
+add address=74.125.0.0/16 list=youtube
+add address=9.192.115.0/24 list=youtube
+add address=199.223.232.0/24 list=youtube
+add address=74.125.206.0/24 list=youtube
+add address=64.233.167.0/24 list=youtube
+add address=199.223.233.0/24 list=youtube
+add address=199.223.234.0/24 list=youtube
+add address=199.223.235.0/24 list=youtube
+add address=199.223.236.0/24 list=youtube
+add address=199.223.237.0/24 list=youtube
+add address=199.223.238.0/24 list=youtube
+add address=199.223.239.0/24 list=youtube
+add address=207.223.160.0/24 list=youtube
+add address=207.223.161.0/24 list=youtube
+add address=207.223.162.0/24 list=youtube
+add address=207.223.163.0/24 list=youtube
+add address=207.223.164.0/24 list=youtube
+add address=207.223.165.0/24 list=youtube
+add address=207.223.166.0/24 list=youtube
+add address=207.223.167.0/24 list=youtube
+add address=207.223.168.0/24 list=youtube
+add address=207.223.169.0/24 list=youtube
+add address=207.223.170.0/24 list=youtube
+add address=207.223.171.0/24 list=youtube
+add address=207.223.172.0/24 list=youtube
+add address=207.223.173.0/24 list=youtube
+add address=207.223.174.0/24 list=youtube
+add address=207.223.175.0/24 list=youtube
+add address=208.65.152.0/24 list=youtube
+add address=208.65.153.0/24 list=youtube
+add address=208.65.154.0/24 list=youtube
+add address=208.65.155.0/24 list=youtube
+add address=208.117.224.0/24 list=youtube
+add address=208.117.225.0/24 list=youtube
+add address=208.117.226.0/24 list=youtube
+add address=208.117.227.0/24 list=youtube
+add address=208.117.228.0/24 list=youtube
+add address=208.117.229.0/24 list=youtube
+add address=208.117.230.0/24 list=youtube
+add address=208.117.231.0/24 list=youtube
+add address=208.117.232.0/24 list=youtube
+add address=208.117.233.0/24 list=youtube
+add address=208.117.234.0/24 list=youtube
+add address=208.117.235.0/24 list=youtube
+add address=208.117.236.0/24 list=youtube
+add address=208.117.237.0/24 list=youtube
+add address=208.117.238.0/24 list=youtube
+add address=208.117.239.0/24 list=youtube
+add address=208.117.240.0/24 list=youtube
+add address=208.117.241.0/24 list=youtube
+add address=208.117.242.0/24 list=youtube
+add address=208.117.243.0/24 list=youtube
+add address=208.117.244.0/24 list=youtube
+add address=208.117.245.0/24 list=youtube
+add address=208.117.246.0/24 list=youtube
+add address=208.117.247.0/24 list=youtube
+add address=208.117.248.0/24 list=youtube
+add address=208.117.249.0/24 list=youtube
+add address=208.117.250.0/24 list=youtube
+add address=208.117.251.0/24 list=youtube
+add address=208.117.252.0/24 list=youtube
+add address=208.117.253.0/24 list=youtube
+add address=208.117.254.0/24 list=youtube
+add address=208.117.255.0/24 list=youtube
+add address=209.85.128.0/24 list=youtube
+add address=209.85.129.0/24 list=youtube
+add address=209.85.130.0/24 list=youtube
+add address=209.85.131.0/24 list=youtube
+add address=209.85.132.0/24 list=youtube
+add address=209.85.133.0/24 list=youtube
+add address=209.85.134.0/24 list=youtube
+add address=209.85.135.0/24 list=youtube
+add address=209.85.136.0/24 list=youtube
+add address=209.85.137.0/24 list=youtube
+add address=209.85.138.0/24 list=youtube
+add address=209.85.139.0/24 list=youtube
+add address=209.85.140.0/24 list=youtube
+add address=209.85.141.0/24 list=youtube
+add address=209.85.142.0/24 list=youtube
+add address=209.85.143.0/24 list=youtube
+add address=209.85.144.0/24 list=youtube
+add address=209.85.145.0/24 list=youtube
+add address=209.85.146.0/24 list=youtube
+add address=209.85.147.0/24 list=youtube
+add address=209.85.148.0/24 list=youtube
+add address=209.85.149.0/24 list=youtube
+add address=209.85.150.0/24 list=youtube
+add address=209.85.151.0/24 list=youtube
+add address=209.85.152.0/24 list=youtube
+add address=209.85.153.0/24 list=youtube
+add address=209.85.154.0/24 list=youtube
+add address=209.85.155.0/24 list=youtube
+add address=209.85.156.0/24 list=youtube
+add address=209.85.157.0/24 list=youtube
+add address=209.85.158.0/24 list=youtube
+add address=209.85.159.0/24 list=youtube
+add address=209.85.160.0/24 list=youtube
+add address=209.85.161.0/24 list=youtube
+add address=209.85.162.0/24 list=youtube
+add address=209.85.163.0/24 list=youtube
+add address=209.85.164.0/24 list=youtube
+add address=209.85.165.0/24 list=youtube
+add address=209.85.166.0/24 list=youtube
+add address=209.85.167.0/24 list=youtube
+add address=209.85.168.0/24 list=youtube
+add address=209.85.169.0/24 list=youtube
+add address=209.85.170.0/24 list=youtube
+add address=209.85.171.0/24 list=youtube
+add address=209.85.172.0/24 list=youtube
+add address=209.85.173.0/24 list=youtube
+add address=209.85.174.0/24 list=youtube
+add address=209.85.175.0/24 list=youtube
+add address=209.85.176.0/24 list=youtube
+add address=209.85.177.0/24 list=youtube
+add address=209.85.178.0/24 list=youtube
+add address=209.85.179.0/24 list=youtube
+add address=209.85.180.0/24 list=youtube
+add address=209.85.181.0/24 list=youtube
+add address=209.85.182.0/24 list=youtube
+add address=209.85.183.0/24 list=youtube
+add address=209.85.184.0/24 list=youtube
+add address=209.85.185.0/24 list=youtube
+add address=209.85.186.0/24 list=youtube
+add address=209.85.187.0/24 list=youtube
+add address=209.85.188.0/24 list=youtube
+add address=209.85.189.0/24 list=youtube
+add address=209.85.190.0/24 list=youtube
+add address=209.85.191.0/24 list=youtube
+add address=209.85.192.0/24 list=youtube
+add address=209.85.193.0/24 list=youtube
+add address=209.85.194.0/24 list=youtube
+add address=209.85.195.0/24 list=youtube
+add address=209.85.196.0/24 list=youtube
+add address=209.85.197.0/24 list=youtube
+add address=209.85.198.0/24 list=youtube
+add address=209.85.199.0/24 list=youtube
+add address=209.85.200.0/24 list=youtube
+add address=209.85.201.0/24 list=youtube
+add address=209.85.202.0/24 list=youtube
+add address=209.85.203.0/24 list=youtube
+add address=209.85.204.0/24 list=youtube
+add address=209.85.205.0/24 list=youtube
+add address=209.85.206.0/24 list=youtube
+add address=209.85.207.0/24 list=youtube
+add address=209.85.208.0/24 list=youtube
+add address=209.85.209.0/24 list=youtube
+add address=209.85.210.0/24 list=youtube
+add address=209.85.211.0/24 list=youtube
+add address=209.85.212.0/24 list=youtube
+add address=209.85.213.0/24 list=youtube
+add address=209.85.214.0/24 list=youtube
+add address=209.85.215.0/24 list=youtube
+add address=209.85.216.0/24 list=youtube
+add address=209.85.217.0/24 list=youtube
+add address=209.85.218.0/24 list=youtube
+add address=209.85.219.0/24 list=youtube
+add address=209.85.220.0/24 list=youtube
+add address=209.85.221.0/24 list=youtube
+add address=209.85.222.0/24 list=youtube
+add address=209.85.223.0/24 list=youtube
+add address=209.85.224.0/24 list=youtube
+add address=209.85.225.0/24 list=youtube
+add address=209.85.226.0/24 list=youtube
+add address=209.85.227.0/24 list=youtube
+add address=209.85.228.0/24 list=youtube
+add address=209.85.229.0/24 list=youtube
+add address=209.85.230.0/24 list=youtube
+add address=209.85.231.0/24 list=youtube
+add address=209.85.232.0/24 list=youtube
+add address=209.85.233.0/24 list=youtube
+add address=209.85.234.0/24 list=youtube
+add address=209.85.235.0/24 list=youtube
+add address=209.85.236.0/24 list=youtube
+add address=209.85.237.0/24 list=youtube
+add address=209.85.238.0/24 list=youtube
+add address=209.85.239.0/24 list=youtube
+add address=209.85.240.0/24 list=youtube
+add address=209.85.241.0/24 list=youtube
+add address=209.85.242.0/24 list=youtube
+add address=209.85.243.0/24 list=youtube
+add address=209.85.244.0/24 list=youtube
+add address=209.85.245.0/24 list=youtube
+add address=209.85.246.0/24 list=youtube
+add address=209.85.247.0/24 list=youtube
+add address=209.85.248.0/24 list=youtube
+add address=209.85.249.0/24 list=youtube
+add address=209.85.250.0/24 list=youtube
+add address=209.85.251.0/24 list=youtube
+add address=209.85.252.0/24 list=youtube
+add address=209.85.253.0/24 list=youtube
+add address=209.85.254.0/24 list=youtube
+add address=209.85.255.0/24 list=youtube
+add address=216.58.192.0/24 list=youtube
+add address=216.58.193.0/24 list=youtube
+add address=216.58.194.0/24 list=youtube
+add address=216.58.195.0/24 list=youtube
+add address=216.58.196.0/24 list=youtube
+add address=216.58.197.0/24 list=youtube
+add address=216.58.198.0/24 list=youtube
+add address=216.58.199.0/24 list=youtube
+add address=216.58.200.0/24 list=youtube
+add address=216.58.201.0/24 list=youtube
+add address=216.58.202.0/24 list=youtube
+add address=216.58.203.0/24 list=youtube
+add address=216.58.204.0/24 list=youtube
+add address=216.58.205.0/24 list=youtube
+add address=216.58.206.0/24 list=youtube
+add address=216.58.207.0/24 list=youtube
+add address=216.58.208.0/24 list=youtube
+add address=216.58.209.0/24 list=youtube
+add address=216.58.219.0/24 list=youtube
+add address=216.58.218.0/24 list=youtube
+add address=216.58.217.0/24 list=youtube
+add address=216.58.216.0/24 list=youtube
+add address=216.58.215.0/24 list=youtube
+add address=216.58.214.0/24 list=youtube
+add address=216.58.213.0/24 list=youtube
+add address=216.58.212.0/24 list=youtube
+add address=216.58.211.0/24 list=youtube
+add address=216.58.210.0/24 list=youtube
+add address=216.58.220.0/24 list=youtube
+add address=216.58.221.0/24 list=youtube
+add address=216.58.222.0/24 list=youtube
+add address=216.58.223.0/24 list=youtube
+add address=216.239.57.0/24 list=youtube
+add address=216.239.56.0/24 list=youtube
+add address=216.239.55.0/24 list=youtube
+add address=216.239.54.0/24 list=youtube
+add address=216.239.36.0/24 list=youtube
+add address=216.239.37.0/24 list=youtube
+add address=216.239.38.0/24 list=youtube
+add address=216.239.39.0/24 list=youtube
+add address=216.239.40.0/24 list=youtube
+add address=216.239.41.0/24 list=youtube
+add address=216.239.42.0/24 list=youtube
+add address=216.239.43.0/24 list=youtube
+add address=216.239.46.0/24 list=youtube
+add address=216.239.47.0/24 list=youtube
+add address=216.239.48.0/24 list=youtube
+add address=216.239.49.0/24 list=youtube
+add address=216.239.51.0/24 list=youtube
+add address=216.239.50.0/24 list=youtube
+add address=216.239.35.0/24 list=youtube
+add address=216.239.34.0/24 list=youtube
+add address=216.239.52.0/24 list=youtube
+add address=216.239.33.0/24 list=youtube
+add address=216.239.32.0/24 list=youtube
+add address=216.239.59.0/24 list=youtube
+add address=216.239.58.0/24 list=youtube
+add address=216.239.60.0/24 list=youtube
+add address=216.239.61.0/24 list=youtube
+add address=216.239.53.0/24 list=youtube
+add address=216.239.63.0/24 list=youtube
+add address=216.239.62.0/24 list=youtube
+add address=54.39.0.0/17 comment=Rapidvideo list=situsdownload
+add address=185.144.80.0/23 comment=oload list=situsdownload
+add address=185.120.144.0/22 comment=oload list=situsdownload
+add address=82.192.64.0/19 comment=wutu list=situsdownload
+add address=69.171.250.0/24 list=sosmed
+add address=69.171.248.0/21 list=sosmed
+add address=69.171.240.0/21 list=sosmed
+add address=66.220.148.0/22 list=sosmed
+add address=66.220.144.0/22 list=sosmed
+add address=41.189.185.0/24 list=sosmed
+add address=31.13.89.0/24 list=sosmed
+add address=31.13.79.0/24 list=sosmed
+add address=185.60.217.0/24 list=sosmed
+add address=173.252.96.0/20 list=sosmed
+add address=173.252.112.0/20 list=sosmed
+add address=157.240.30.0/24 list=sosmed
+add address=157.240.29.0/24 list=sosmed
+add address=157.240.28.0/24 list=sosmed
+add address=157.240.27.0/24 list=sosmed
+add address=157.240.26.0/24 list=sosmed
+add address=157.240.25.0/24 list=sosmed
+add address=157.240.24.0/24 list=sosmed
+add address=157.240.23.0/24 list=sosmed
+add address=157.240.194.0/24 list=sosmed
+add address=157.240.193.0/24 list=sosmed
+add address=157.240.192.0/18 list=sosmed
+add address=157.240.181.0/24 list=sosmed
+add address=157.240.180.0/24 list=sosmed
+add address=157.240.179.0/24 list=sosmed
+add address=157.240.177.0/24 list=sosmed
+add address=157.240.176.0/24 list=sosmed
+add address=157.240.175.0/24 list=sosmed
+add address=157.240.174.0/24 list=sosmed
+add address=157.240.173.0/24 list=sosmed
+add address=157.240.170.0/24 list=sosmed
+add address=157.240.169.0/24 list=sosmed
+add address=157.240.160.0/24 list=sosmed
+add address=157.240.159.0/24 list=sosmed
+add address=157.240.158.0/24 list=sosmed
+add address=157.240.155.0/24 list=sosmed
+add address=157.240.152.0/24 list=sosmed
+add address=157.240.151.0/24 list=sosmed
+add address=157.240.147.0/24 list=sosmed
+add address=157.240.141.0/24 list=sosmed
+add address=102.132.96.0/24 list=sosmed
+add address=102.132.96.0/20 list=sosmed
+add address=102.132.114.0/24 list=sosmed
+add address=102.132.113.0/24 list=sosmed
+add address=102.132.112.0/24 list=sosmed
+add address=163.114.128.0/24 list=sosmed
+add address=163.114.129.0/24 list=sosmed
+add address=179.60.194.0/24 list=sosmed
+add address=118.98.0.0/17 list=youtube
+add address=172.241.112.0/21 comment=leaseweb list=situsdownload
+add address=23.19.64.0/20 comment=leaseweb list=situsdownload
+add address=95.211.0.0/16 list=situsdownload
+add address=5.79.64.0/18 comment=leaseweb list=situsdownload
+add address=51.15.0.0/16 comment="ONLINE SAS" list=situsdownload
+add address=85.17.0.0/16 comment=leaseweb list=situsdownload
+add address=217.182.0.0/16 comment=streamcherry.com list=situsdownload
+add address=198.16.64.0/18 comment=FDCservers.net list=situsdownload
+add address=198.16.106.0/23 comment=FDCservers.net list=situsdownload
+add address=185.223.156.0/22 comment=dailymotion.com list=situsdownload
+add address=188.65.120.0/21 comment=dailymotion.com list=situsdownload
+add address=195.8.214.0/23 comment=dailymotion.com list=situsdownload
+add address=195.8.214.0/24 comment=dailymotion.com list=situsdownload
+add address=198.54.200.0/24 comment=dailymotion.com list=situsdownload
+add address=198.54.201.0/24 comment=dailymotion.com list=situsdownload
+add address=159.89.192.0/20 comment="digital ocean" list=situsdownload
+add address=151.101.128.0/22 comment=vimeo.com list=situsdownload
+add address=151.101.0.0/16 comment=vimeo.com list=situsdownload
+add address=151.101.64.0/22 comment=vimeo.com list=situsdownload
+add address=151.101.192.0/22 comment=vimeo.com list=situsdownload
+add address=151.101.0.0/22 comment=vimeo.com list=situsdownload
+add address=207.244.64.0/18 comment=leaseweb list=situsdownload
+add address=216.18.168.124 comment=redtube list=blokbokep
+add address=104.31.112.23 comment=yespornplease list=blokbokep
+add address=104.31.113.23 comment=yespornplease list=blokbokep
+add address=104.27.135.173 comment=yespornplease list=blokbokep
+add address=104.27.134.173 comment=yespornplease list=blokbokep
+add address=82.192.65.65 comment=eporner list=blokbokep
+add address=66.254.114.41 comment=pornhub list=blokbokep
+add address=185.88.181.4 comment=xvideos list=blokbokep
+add address=185.88.181.2 comment=xvideos list=blokbokep
+add address=185.88.181.7 comment=xvideos list=blokbokep
+add address=185.88.181.3 comment=xvideos list=blokbokep
+add address=185.88.181.5 comment=xvideos list=blokbokep
+add address=185.88.181.6 comment=xvideos list=blokbokep
+add address=185.88.181.8 comment=xvideos list=blokbokep
+add address=185.88.181.11 comment=xvideos list=blokbokep
+add address=185.88.181.9 comment=xvideos list=blokbokep
+add address=185.88.181.10 comment=xvideos list=blokbokep
+add address=88.208.60.136 comment=xhamster list=blokbokep
+add address=88.208.60.180 comment=xhamster list=blokbokep
+add address=185.88.181.54 comment=xnxx list=blokbokep
+add address=185.88.181.60 comment=xnxx list=blokbokep
+add address=185.88.181.58 comment=xnxx list=blokbokep
+add address=185.88.181.57 comment=xnxx list=blokbokep
+add address=185.88.181.55 comment=xnxx list=blokbokep
+add address=185.88.181.53 comment=xnxx list=blokbokep
+add address=185.88.181.56 comment=xnxx list=blokbokep
+add address=185.88.181.59 comment=xnxx list=blokbokep
+add address=192.243.54.98 comment=beeg list=blokbokep
+add address=104.20.42.98 comment=spankbang list=blokbokep
+add address=104.20.41.98 comment=spankbang list=blokbokep
+add address=80.249.162.1 comment=pornhd list=blokbokep
+add address=216.18.168.162 comment=youjizz list=blokbokep
+add address=216.18.168.79 comment=youporn list=blokbokep
+add address=109.201.133.9 comment=porntrex list=blokbokep
+add address=104.27.166.184 comment=daftsex list=blokbokep
+add address=104.27.167.184 comment=daftsex list=blokbokep
+add address=88.208.35.41 comment=hqporner list=blokbokep
+add address=46.166.188.38 comment=motherless list=blokbokep
+add address=46.166.188.35 comment=motherless list=blokbokep
+add address=46.166.188.36 comment=motherless list=blokbokep
+add address=46.166.188.37 comment=motherless list=blokbokep
+add address=216.18.168.116 comment=yuouporn list=blokbokep
+add address=104.25.130.118 comment=vporn list=blokbokep
+add address=104.25.129.118 comment=vporn list=blokbokep
+add address=67.22.49.255 comment=porn list=blokbokep
+add address=104.27.57.108 comment=veporns list=blokbokep
+add address=104.27.56.108 comment=veporns list=blokbokep
+add address=104.24.106.42 comment=vidz7 list=blokbokep
+add address=104.24.107.42 comment=vidz7 list=blokbokep
+add address=85.217.223.9 comment=pornktube list=blokbokep
+add address=104.27.107.98 comment=gotporn list=blokbokep
+add address=104.27.106.98 comment=gotporn list=blokbokep
+add address=104.17.180.88 comment=4tube list=blokbokep
+add address=104.17.179.88 comment=4tube list=blokbokep
+add address=104.18.147.225 comment=porntube list=blokbokep
+add address=104.18.148.225 comment=porntube list=blokbokep
+add address=108.61.0.245 comment=3movs list=blokbokep
+add address=216.18.168.66 comment=tube8 list=blokbokep
+add address=104.31.78.1 comment=cumlouder list=blokbokep
+add address=104.31.79.1 comment=cumlouder list=blokbokep
+add address=104.20.71.110 comment=txxx list=blokbokep
+add address=104.20.72.110 comment=txxx list=blokbokep
+add address=85.217.223.6 comment=tubexporn list=blokbokep
+add address=5.79.93.102 comment=porndoe list=blokbokep
+add address=77.247.179.176 comment=tnaflix list=blokbokep
+add address=104.16.123.32 comment=porndig list=blokbokep
+add address=104.16.124.32 comment=porndig list=blokbokep
+add address=104.25.22.4 comment=pornolab list=blokbokep
+add address=104.25.23.4 comment=pornolab list=blokbokep
+add address=104.18.61.119 comment=porndish list=blokbokep
+add address=104.18.60.119 comment=porndish list=blokbokep
+add address=104.24.120.82 comment=porn4days list=blokbokep
+add address=104.24.121.82 comment=porn4days list=blokbokep
+add address=104.27.155.239 comment=pornhd8k list=blokbokep
+add address=104.27.154.239 comment=pornhd8k list=blokbokep
+add address=104.31.65.129 comment=vidz24 list=blokbokep
+add address=104.31.64.129 comment=vidz24 list=blokbokep
+add address=104.27.16.98 comment=luxuretv list=blokbokep
+add address=104.27.17.98 comment=luxuretv list=blokbokep
+add address=104.254.87.60 comment=perfectgirls list=blokbokep
+add address=104.254.87.63 comment=perfectgirls list=blokbokep
+add address=104.254.87.69 comment=perfectgirls list=blokbokep
+add address=104.254.87.66 comment=perfectgirls list=blokbokep
+add address=104.18.40.65 comment=porn300 list=blokbokep
+add address=104.18.41.65 comment=porn300 list=blokbokep
+add address=88.85.94.221 comment=anysex list=blokbokep
+add address=78.140.187.214 comment=drtuber list=blokbokep
+add address=78.140.183.214 comment=drtuber list=blokbokep
+add address=104.27.168.90 comment=netfapx list=blokbokep
+add address=104.27.169.90 comment=netfapx list=blokbokep
+add address=104.23.141.14 comment=waxtube list=blokbokep
+add address=104.23.142.14 comment=waxtube list=blokbokep
+add address=173.239.5.6 comment=xmoviesforyou list=blokbokep
+add address=213.247.47.190 comment=xmoviesforyou list=blokbokep
+add address=173.239.8.164 comment=xmoviesforyou list=blokbokep
+add address=104.27.168.138 comment=letsjerk list=blokbokep
+add address=104.27.169.138 comment=letsjerk list=blokbokep
+add address=104.27.168.12 comment=likuoo list=blokbokep
+add address=104.27.169.12 comment=likuoo list=blokbokep
+add address=104.18.53.17 comment=pornobae list=blokbokep
+add address=104.18.52.17 comment=pornobae list=blokbokep
+add address=104.24.110.185 comment=xxxstreams list=blokbokep
+add address=104.24.111.185 comment=xxxstreams list=blokbokep
+add address=104.18.62.26 comment=porn00 list=blokbokep
+add address=104.18.63.26 comment=porn00 list=blokbokep
+add address=94.23.72.19 comment=rushporn list=blokbokep
+add address=85.217.223.7 comment=pornky list=blokbokep
+add address=85.217.223.8 comment=joysporn list=blokbokep
+add address=104.27.180.43 comment=youfreeporntube list=blokbokep
+add address=104.27.181.43 comment=youfreeporntube list=blokbokep
+add address=204.12.238.74 comment=ultrahorny list=blokbokep
+add address=104.24.121.46 comment=watchxxxfree list=blokbokep
+add address=104.24.120.46 comment=watchxxxfree list=blokbokep
+add address=104.27.200.92 comment=plusone8 list=blokbokep
+add address=104.27.201.92 comment=plusone8 list=blokbokep
+add address=104.28.13.89 comment=freeomovie list=blokbokep
+add address=104.28.12.89 comment=freeomovie list=blokbokep
+add address=88.208.55.1 comment=anyporn list=blokbokep
+add address=46.166.142.228 comment=collectionofbestporn list=blokbokep
+add address=99.192.226.225 comment=cliphunter list=blokbokep
+add address=104.28.19.70 comment=pornhd6k list=blokbokep
+add address=104.28.18.70 comment=pornhd6k list=blokbokep
+add address=104.27.169.192 comment=xtapes list=blokbokep
+add address=104.27.168.192 comment=xtapes list=blokbokep
+add address=104.28.9.205 comment=k18 list=blokbokep
+add address=104.28.8.205 comment=k18 list=blokbokep
+add address=104.24.106.122 comment=sweext list=blokbokep
+add address=104.24.107.122 comment=sweext list=blokbokep
+add address=104.31.75.214 comment=hdpornstartz list=blokbokep
+add address=104.31.74.214 comment=hdpornstartz list=blokbokep
+add address=104.27.150.77 comment=pervertslut list=blokbokep
+add address=104.27.151.77 comment=pervertslut list=blokbokep
+add address=104.27.140.224 comment=xkeezmovies list=blokbokep
+add address=104.27.141.224 comment=xkeezmovies list=blokbokep
+add address=104.27.131.181 comment=sexgalaxy list=blokbokep
+add address=104.27.130.181 comment=sexgalaxy list=blokbokep
+add address=104.27.184.7 comment=xopenload list=blokbokep
+add address=104.27.185.7 comment=xopenload list=blokbokep
+add address=104.28.21.17 comment=netpornsex list=blokbokep
+add address=104.28.20.17 comment=netpornsex list=blokbokep
+add address=104.28.5.129 comment=palimas list=blokbokep
+add address=104.28.4.129 comment=palimas list=blokbokep
+add address=104.27.240.244 comment=pornbraze list=blokbokep
+add address=104.27.241.244 comment=pornbraze list=blokbokep
+add address=46.166.148.210 comment=pornrewind list=blokbokep
+add address=95.211.29.150 comment=sextvx list=blokbokep
+add address=78.140.128.133 comment=hotgirlsclub list=blokbokep
+add address=88.208.1.199 comment=sexu list=blokbokep
+add address=37.187.78.186 comment=yourdailypornvideos list=blokbokep
+add address=104.31.68.116 comment=pornovideoshub list=blokbokep
+add address=104.31.69.116 comment=pornovideoshub list=blokbokep
+add address=208.99.76.166 comment=youngpornvideos list=blokbokep
+add address=104.25.245.36 comment=xxvideoss list=blokbokep
+add address=104.25.246.36 comment=xxvideoss list=blokbokep
+add address=104.31.87.150 comment=pandamovies list=blokbokep
+add address=104.31.86.150 comment=pandamovies list=blokbokep
+add address=104.27.172.109 comment=streamingporn list=blokbokep
+add address=104.27.173.109 comment=streamingporn list=blokbokep
+add address=51.255.32.13 comment=xxxstreams list=blokbokep
+add address=104.28.29.148 comment=fullxxxmovies list=blokbokep
+add address=104.28.28.148 comment=fullxxxmovies list=blokbokep
+add address=104.28.16.227 comment=pornxbit list=blokbokep
+add address=104.28.17.227 comment=pornxbit list=blokbokep
+add address=80.84.51.18 comment=pussyspace list=blokbokep
+add address=104.25.180.29 comment=gameofporn list=blokbokep
+add address=104.25.181.29 comment=gameofporn list=blokbokep
+add address=149.202.59.1 comment=pornstreams list=blokbokep
+add address=138.68.84.215 comment=pornvibe list=blokbokep
+add address=104.27.139.85 comment=hdeasyporn list=blokbokep
+add address=104.27.138.85 comment=hdeasyporn list=blokbokep
+add address=173.214.250.125 comment=palmtube list=blokbokep
+add address=67.23.100.121 comment=laidhub list=blokbokep
+add address=52.73.28.115 comment=vrporn list=blokbokep
+add address=54.85.29.187 comment=vrporn list=blokbokep
+add address=52.86.75.60 comment=vrporn list=blokbokep
+add address=34.197.183.71 comment=vrporn list=blokbokep
+add address=74.206.165.163 comment=xblaze list=blokbokep
+add address=185.206.62.93 comment=fakings list=blokbokep
+add address=85.17.227.184 comment=dvdtrailertube list=blokbokep
+add address=77.247.179.135 comment=empflix list=blokbokep
+add address=104.31.7.184 comment=taxi69 list=blokbokep
+add address=104.31.6.184 comment=taxi69 list=blokbokep
+add address=104.31.90.200 comment=slutload list=blokbokep
+add address=104.31.91.200 comment=slutload list=blokbokep
+add address=104.17.205.85 comment=fux list=blokbokep
+add address=104.17.206.85 comment=fux list=blokbokep
+add address=178.208.83.45 comment=fuckamouth list=blokbokep
+add address=104.31.94.203 comment=mangoporn list=blokbokep
+add address=104.31.95.203 comment=mangoporn list=blokbokep
+add address=104.24.100.221 comment=streamporn list=blokbokep
+add address=104.24.101.221 comment=streamporn list=blokbokep
+add address=104.27.151.252 comment=justswallows list=blokbokep
+add address=104.27.150.252 comment=justswallows list=blokbokep
+add address=104.24.98.194 comment=yeapornpls list=blokbokep
+add address=104.24.99.194 comment=yeapornpls list=blokbokep
+add address=104.24.113.113 comment=xfantasy list=blokbokep
+add address=104.24.112.113 comment=xfantasy list=blokbokep
+add address=51.38.0.0/16 comment="ovh sas" list=situsdownload
+add address=176.103.128.0/19 list=adguard
+add address=176.103.130.0/24 list=adguard
+add address=88.208.0.0/18 list=situsdownload
+add address=88.208.10.0/24 list=situsdownload
+add address=213.174.128.0/19 comment="dataweb global group" list=\
+    situsdownload
+add address=213.174.136.0/24 comment="dataweb global group" list=\
+    situsdownload
+add address=188.241.87.0/24 list=situsdownload
+add address=194.67.192.0/19 comment="Marosnet enterprise network" list=\
+    situsdownload
+add address=194.67.208.0/20 comment="Marosnet enterprise network" list=\
+    situsdownload
+add address=185.123.142.0/23 comment="M247 Europe SRL" list=situsdownload
+add address=185.144.82.0/23 list=situsdownload
+add address=185.163.110.0/23 list=situsdownload
+add address=108.62.152.0/21 comment=leaseweb list=situsdownload
+add address=89.33.246.0/24 list=situsdownload
+add address=91.195.98.0/23 list=situsdownload
+add address=173.194.0.0/16 list=youtube
+add address=173.194.0.0/19 list=youtube
+add address=173.208.120.0/24 list=situsdownload
+add address=89.187.162.0/23 list=situsdownload
+add address=8.224.0.0/11 list=situsdownload
+add address=8.240.0.0/12 list=situsdownload
+add address=69.16.175.0/24 comment=hwcdn list=situsdownload
+add address=152.192.0.0/13 list=situsdownload
+add address=152.195.62.0/24 list=situsdownload
+add address=52.136.0.0/13 list=mikocok
+add address=52.132.0.0/14 list=mikocok
+add address=40.112.0.0/13 list=mikocok
+add address=40.120.0.0/14 list=mikocok
+add address=40.124.0.0/16 list=mikocok
+add address=40.125.0.0/17 list=mikocok
+add address=40.74.0.0/15 list=mikocok
+add address=40.76.0.0/14 list=mikocok
+add address=40.96.0.0/12 list=mikocok
+add address=67.24.0.0/13 list=situsdownload
+add address=209.197.3.0/24 list=situsdownload
+add address=103.225.66.0/24 list=situsdownload
+add address=91.189.88.0/21 list=canonical
+add address=91.189.95.0/24 list=canonical
+add address=140.138.0.0/16 list=canonical
+add address=13.104.0.0/14 list=mikocok
+add address=13.64.0.0/11 list=mikocok
+add address=13.96.0.0/13 list=mikocok
+add address=218.213.150.51 comment=gokeyboard list=ADS
+add address=218.213.150.43 comment=gokeyboard list=ADS
+add address=218.213.150.38 comment=gokeyboard list=ADS
+add address=218.213.150.50 comment=gokeyboard list=ADS
+add address=74.6.160.106 comment="yahoo analytics" list=ADS
+add address=74.6.160.107 comment="yahoo analytics" list=ADS
+add address=203.205.146.45 comment=rqd.sparta.mig.tencent-cloud.net list=ADS
+add address=52.31.109.158 comment="appsflyer analytics" list=ADS
+add address=52.48.186.123 comment="appsflyer analytics" list=ADS
+add address=52.31.14.184 comment="appsflyer analytics" list=ADS
+add address=52.213.122.2 comment="appsflyer analytics" list=ADS
+add address=52.16.162.218 comment="appsflyer analytics" list=ADS
+add address=52.31.205.7 comment="appsflyer analytics" list=ADS
+add address=34.249.99.79 comment="appsflyer analytics" list=ADS
+add address=34.253.113.85 comment="appsflyer analytics" list=ADS
+add address=108.161.189.78 comment=monetization-framework.bsa.netdna-cdn.com \
+    list=ADS
+add address=13.35.16.0/21 list=situsdownload
+add address=10.10.10.0/24 list=private-lokal
+add address=52.112.0.0/14 list=mikocok
+add address=52.96.0.0/12 list=mikocok
+add address=1.1.1.1 list=ICMP
+add address=1.0.0.1 list=ICMP
+add address=8.8.8.8 list=ICMP
+
+add address=150.109.0.0/16 list=pubgpc
+add address=150.109.8.0/22 list=pubgpc
+add address=119.28.96.0/19 list=pubgpc
+add address=119.28.96.0/20 list=pubgpc
+add address=119.28.108.0/23 list=pubgpc
+add address=203.205.128.0/19 list=pubgpc
+add address=203.205.128.0/23 list=pubgpc
+add address=150.109.12.0/22 list=pubgpc
+add address=119.28.112.0/21 list=pubgpc
+add address=119.28.114.0/23 list=pubgpc
+add address=119.28.112.0/20 list=pubgpc
+add address=103.7.30.0/24 list=pubgpc
+add address=223.167.0.0/16 list=pubgpc
+add address=223.167.80.0/21 list=pubgpc
+add address=223.167.86.0/24 list=pubgpc
+add address=203.205.146.0/24 list=pubgpc
+add address=203.205.142.0/24 list=pubgpc
+add address=140.207.0.0/16 list=pubgpc
+add address=140.207.54.0/23 list=pubgpc
+add address=140.207.54.0/24 list=pubgpc
+add address=119.28.122.0/23 list=pubgpc
+add address=119.28.116.0/23 list=pubgpc
+add address=45.40.216.0/22 list=pubgpc
+add address=45.40.220.0/22 list=pubgpc
+add address=45.113.68.0/22 list=pubgpc
+add address=45.113.68.0/23 list=pubgpc
+add address=203.205.218.0/24 list=pubgpc
+add address=124.156.0.0/19 list=pubgpc
+add address=124.156.0.0/16 list=pubgpc
+add address=45.113.70.0/23 list=pubgpc
+add address=49.51.0.0/19 list=pubgpc
+add address=49.51.0.0/23 list=pubgpc
+add address=49.51.2.0/23 list=pubgpc
+add address=49.51.4.0/23 list=pubgpc
+add address=49.51.6.0/23 list=pubgpc
+add address=49.51.8.0/23 list=pubgpc
+add address=49.51.10.0/23 list=pubgpc
+add address=49.51.12.0/23 list=pubgpc
+add address=49.51.14.0/23 list=pubgpc
+add address=49.51.16.0/23 list=pubgpc
+add address=49.51.18.0/23 list=pubgpc
+add address=103.7.28.0/24 list=pubgpc
+add address=103.7.29.0/24 list=pubgpc
+add address=103.7.31.0/24 list=pubgpc
+add address=103.52.216.0/22 list=pubgpc
+add address=103.52.216.0/23 list=pubgpc
+add address=103.52.218.0/23 list=pubgpc
+add address=103.52.218.0/24 list=pubgpc
+add address=103.238.16.0/23 list=pubgpc
+add address=119.28.0.0/18 list=pubgpc
+add address=119.28.0.0/21 list=pubgpc
+add address=119.28.0.0/23 list=pubgpc
+add address=119.28.2.0/23 list=pubgpc
+add address=119.28.4.0/23 list=pubgpc
+add address=119.28.6.0/23 list=pubgpc
+add address=119.28.8.0/23 list=pubgpc
+add address=119.28.8.0/24 list=pubgpc
+add address=119.28.10.0/23 list=pubgpc
+add address=119.28.12.0/23 list=pubgpc
+add address=119.28.14.0/23 list=pubgpc
+add address=119.28.16.0/23 list=pubgpc
+add address=119.28.18.0/23 list=pubgpc
+add address=119.28.20.0/23 list=pubgpc
+add address=119.28.22.0/23 list=pubgpc
+add address=119.28.24.0/23 list=pubgpc
+add address=119.28.26.0/23 list=pubgpc
+add address=119.28.28.0/23 list=pubgpc
+add address=119.28.28.0/24 list=pubgpc
+add address=119.28.30.0/23 list=pubgpc
+add address=119.28.32.0/23 list=pubgpc
+add address=119.28.34.0/23 list=pubgpc
+add address=119.28.36.0/23 list=pubgpc
+add address=119.28.38.0/23 list=pubgpc
+add address=119.28.40.0/23 list=pubgpc
+add address=119.28.42.0/23 list=pubgpc
+add address=119.28.44.0/23 list=pubgpc
+add address=119.28.46.0/23 list=pubgpc
+add address=119.28.48.0/23 list=pubgpc
+add address=119.28.50.0/23 list=pubgpc
+add address=119.28.52.0/23 list=pubgpc
+add address=119.28.54.0/23 list=pubgpc
+add address=119.28.56.0/23 list=pubgpc
+add address=119.28.58.0/23 list=pubgpc
+add address=119.28.60.0/23 list=pubgpc
+add address=119.28.62.0/23 list=pubgpc
+add address=119.28.64.0/19 list=pubgpc
+add address=119.28.64.0/23 list=pubgpc
+add address=119.28.66.0/23 list=pubgpc
+add address=119.28.68.0/23 list=pubgpc
+add address=119.28.70.0/23 list=pubgpc
+add address=119.28.72.0/23 list=pubgpc
+add address=119.28.74.0/23 list=pubgpc
+add address=119.28.76.0/23 list=pubgpc
+add address=119.28.78.0/23 list=pubgpc
+add address=119.28.80.0/23 list=pubgpc
+add address=119.28.82.0/23 list=pubgpc
+add address=119.28.84.0/23 list=pubgpc
+add address=119.28.86.0/23 list=pubgpc
+add address=119.28.88.0/23 list=pubgpc
+add address=119.28.90.0/23 list=pubgpc
+add address=119.28.92.0/23 list=pubgpc
+add address=119.28.94.0/23 list=pubgpc
+add address=119.28.96.0/23 list=pubgpc
+add address=119.28.98.0/23 list=pubgpc
+add address=119.28.100.0/23 list=pubgpc
+add address=119.28.102.0/23 list=pubgpc
+add address=119.28.104.0/23 list=pubgpc
+add address=119.28.106.0/23 list=pubgpc
+add address=119.28.110.0/23 list=pubgpc
+add address=119.28.112.0/23 list=pubgpc
+add address=119.28.118.0/23 list=pubgpc
+add address=119.28.120.0/23 list=pubgpc
+add address=119.28.124.0/23 list=pubgpc
+add address=119.28.124.0/24 list=pubgpc
+add address=119.28.125.0/24 list=pubgpc
+add address=119.28.126.0/23 list=pubgpc
+add address=119.28.128.0/20 list=pubgpc
+add address=119.28.128.0/23 list=pubgpc
+add address=119.28.130.0/23 list=pubgpc
+add address=119.28.132.0/23 list=pubgpc
+add address=119.28.134.0/23 list=pubgpc
+add address=119.28.136.0/23 list=pubgpc
+add address=119.28.138.0/23 list=pubgpc
+add address=119.28.140.0/23 list=pubgpc
+add address=119.28.142.0/23 list=pubgpc
+add address=119.28.144.0/20 list=pubgpc
+add address=119.28.144.0/23 list=pubgpc
+add address=119.28.146.0/23 list=pubgpc
+add address=119.28.148.0/23 list=pubgpc
+add address=119.28.150.0/23 list=pubgpc
+add address=119.28.152.0/23 list=pubgpc
+add address=119.28.154.0/23 list=pubgpc
+add address=119.28.156.0/23 list=pubgpc
+add address=119.28.158.0/23 list=pubgpc
+add address=119.28.160.0/22 list=pubgpc
+add address=119.28.160.0/23 list=pubgpc
+add address=119.28.162.0/23 list=pubgpc
+add address=119.28.164.0/23 list=pubgpc
+add address=119.28.166.0/23 list=pubgpc
+add address=119.28.168.0/23 list=pubgpc
+add address=119.28.170.0/23 list=pubgpc
+add address=119.28.172.0/23 list=pubgpc
+add address=119.28.174.0/23 list=pubgpc
+add address=119.28.176.0/23 list=pubgpc
+add address=119.28.178.0/23 list=pubgpc
+add address=119.28.180.0/23 list=pubgpc
+add address=119.28.182.0/23 list=pubgpc
+add address=119.28.184.0/23 list=pubgpc
+add address=119.28.186.0/23 list=pubgpc
+add address=119.28.188.0/23 list=pubgpc
+add address=119.28.190.0/23 list=pubgpc
+add address=119.28.192.0/23 list=pubgpc
+add address=119.28.194.0/23 list=pubgpc
+add address=119.28.196.0/23 list=pubgpc
+add address=119.28.198.0/23 list=pubgpc
+add address=119.28.200.0/23 list=pubgpc
+add address=119.28.202.0/23 list=pubgpc
+add address=119.28.204.0/23 list=pubgpc
+add address=119.28.206.0/23 list=pubgpc
+add address=119.28.208.0/23 list=pubgpc
+add address=119.28.210.0/23 list=pubgpc
+add address=119.28.212.0/23 list=pubgpc
+add address=119.28.214.0/23 list=pubgpc
+add address=119.28.216.0/23 list=pubgpc
+add address=119.28.217.0/24 list=pubgpc
+add address=119.28.218.0/23 list=pubgpc
+add address=119.28.220.0/23 list=pubgpc
+add address=119.28.222.0/23 list=pubgpc
+add address=119.28.224.0/23 list=pubgpc
+add address=119.28.226.0/23 list=pubgpc
+add address=119.28.228.0/23 list=pubgpc
+add address=119.28.230.0/23 list=pubgpc
+add address=119.28.232.0/21 list=pubgpc
+add address=119.28.232.0/23 list=pubgpc
+add address=119.28.234.0/23 list=pubgpc
+add address=119.28.236.0/23 list=pubgpc
+add address=119.28.238.0/23 list=pubgpc
+add address=119.28.240.0/20 list=pubgpc
+add address=119.29.29.0/24 list=pubgpc
+add address=120.88.56.0/23 list=pubgpc
+add address=124.156.32.0/19 list=pubgpc
+add address=124.156.64.0/19 list=pubgpc
+add address=124.156.96.0/22 list=pubgpc
+add address=124.156.100.0/22 list=pubgpc
+add address=124.156.104.0/22 list=pubgpc
+add address=124.156.108.0/22 list=pubgpc
+add address=124.156.112.0/22 list=pubgpc
+add address=124.156.116.0/22 list=pubgpc
+add address=124.156.120.0/22 list=pubgpc
+add address=124.156.124.0/22 list=pubgpc
+add address=124.156.128.0/22 list=pubgpc
+add address=124.156.132.0/22 list=pubgpc
+add address=124.156.136.0/22 list=pubgpc
+add address=124.156.140.0/22 list=pubgpc
+add address=124.156.144.0/22 list=pubgpc
+add address=124.156.148.0/22 list=pubgpc
+add address=124.156.152.0/22 list=pubgpc
+add address=124.156.156.0/22 list=pubgpc
+add address=124.156.160.0/22 list=pubgpc
+add address=124.156.164.0/22 list=pubgpc
+add address=124.156.168.0/22 list=pubgpc
+add address=124.156.172.0/22 list=pubgpc
+add address=124.156.176.0/22 list=pubgpc
+add address=124.156.180.0/22 list=pubgpc
+add address=124.156.184.0/22 list=pubgpc
+add address=124.156.188.0/22 list=pubgpc
+add address=124.156.192.0/22 list=pubgpc
+add address=124.156.196.0/22 list=pubgpc
+add address=124.156.200.0/22 list=pubgpc
+add address=124.156.204.0/22 list=pubgpc
+add address=124.156.208.0/20 list=pubgpc
+add address=124.156.224.0/20 list=pubgpc
+add address=124.156.240.0/22 list=pubgpc
+add address=124.156.244.0/22 list=pubgpc
+add address=124.156.248.0/22 list=pubgpc
+add address=124.156.252.0/22 list=pubgpc
+add address=129.226.0.0/16 list=pubgpc
+add address=150.109.0.0/22 list=pubgpc
+add address=150.109.1.0/24 list=pubgpc
+add address=150.109.2.0/24 list=pubgpc
+add address=150.109.3.0/24 list=pubgpc
+add address=150.109.4.0/22 list=pubgpc
+add address=150.109.16.0/22 list=pubgpc
+add address=150.109.20.0/22 list=pubgpc
+add address=150.109.24.0/22 list=pubgpc
+add address=150.109.28.0/22 list=pubgpc
+add address=150.109.30.0/24 list=pubgpc
+add address=150.109.31.0/24 list=pubgpc
+add address=150.109.32.0/22 list=pubgpc
+add address=150.109.34.0/23 list=pubgpc
+add address=150.109.35.0/24 list=pubgpc
+add address=150.109.36.0/22 list=pubgpc
+add address=150.109.36.0/24 list=pubgpc
+add address=150.109.40.0/22 list=pubgpc
+add address=150.109.44.0/22 list=pubgpc
+add address=150.109.48.0/22 list=pubgpc
+add address=150.109.52.0/22 list=pubgpc
+add address=150.109.56.0/22 list=pubgpc
+add address=150.109.60.0/22 list=pubgpc
+add address=150.109.64.0/20 list=pubgpc
+add address=150.109.80.0/23 list=pubgpc
+add address=150.109.80.0/24 list=pubgpc
+add address=150.109.82.0/23 list=pubgpc
+add address=150.109.84.0/23 list=pubgpc
+add address=150.109.85.0/24 list=pubgpc
+add address=150.109.86.0/23 list=pubgpc
+add address=150.109.86.0/24 list=pubgpc
+add address=150.109.87.0/24 list=pubgpc
+add address=150.109.88.0/24 list=pubgpc
+add address=150.109.89.0/24 list=pubgpc
+add address=150.109.90.0/23 list=pubgpc
+add address=150.109.92.0/23 list=pubgpc
+add address=150.109.94.0/23 list=pubgpc
+add address=150.109.96.0/23 list=pubgpc
+add address=150.109.98.0/23 list=pubgpc
+add address=150.109.100.0/23 list=pubgpc
+add address=150.109.102.0/23 list=pubgpc
+add address=150.109.104.0/23 list=pubgpc
+add address=150.109.106.0/23 list=pubgpc
+add address=150.109.108.0/23 list=pubgpc
+add address=150.109.110.0/23 list=pubgpc
+add address=150.109.112.0/23 list=pubgpc
+add address=150.109.114.0/23 list=pubgpc
+add address=150.109.116.0/23 list=pubgpc
+add address=150.109.118.0/23 list=pubgpc
+add address=150.109.120.0/23 list=pubgpc
+add address=150.109.122.0/23 list=pubgpc
+add address=150.109.124.0/23 list=pubgpc
+add address=150.109.126.0/23 list=pubgpc
+add address=150.109.128.0/23 list=pubgpc
+add address=150.109.130.0/23 list=pubgpc
+add address=150.109.130.0/24 list=pubgpc
+add address=150.109.132.0/23 list=pubgpc
+add address=150.109.132.0/24 list=pubgpc
+add address=150.109.133.0/24 list=pubgpc
+add address=150.109.134.0/23 list=pubgpc
+add address=150.109.138.0/23 list=pubgpc
+add address=150.109.144.0/23 list=pubgpc
+add address=150.109.146.0/23 list=pubgpc
+add address=150.109.148.0/23 list=pubgpc
+add address=150.109.150.0/23 list=pubgpc
+add address=150.109.152.0/23 list=pubgpc
+add address=150.109.154.0/23 list=pubgpc
+add address=150.109.156.0/23 list=pubgpc
+add address=150.109.158.0/23 list=pubgpc
+add address=150.109.160.0/22 list=pubgpc
+add address=150.109.164.0/22 list=pubgpc
+add address=150.109.168.0/22 list=pubgpc
+add address=150.109.168.0/23 list=pubgpc
+add address=150.109.172.0/22 list=pubgpc
+add address=150.109.176.0/22 list=pubgpc
+add address=150.109.180.0/22 list=pubgpc
+add address=150.109.184.0/22 list=pubgpc
+add address=150.109.188.0/23 list=pubgpc
+add address=150.109.190.0/24 list=pubgpc
+add address=150.109.191.0/24 list=pubgpc
+add address=150.109.192.0/21 list=pubgpc
+add address=150.109.200.0/22 list=pubgpc
+add address=150.109.204.0/23 list=pubgpc
+add address=150.109.206.0/23 list=pubgpc
+add address=150.109.206.0/24 list=pubgpc
+add address=150.109.207.0/24 list=pubgpc
+add address=150.109.208.0/20 list=pubgpc
+add address=150.109.224.0/19 list=pubgpc
+add address=162.14.0.0/22 list=pubgpc
+add address=162.14.4.0/22 list=pubgpc
+add address=162.14.8.0/22 list=pubgpc
+add address=162.14.12.0/22 list=pubgpc
+add address=162.14.16.0/22 list=pubgpc
+add address=162.14.20.0/22 list=pubgpc
+add address=162.62.0.0/16 list=pubgpc
+add address=162.62.0.0/19 list=pubgpc
+add address=162.62.0.0/23 list=pubgpc
+add address=162.62.2.0/23 list=pubgpc
+add address=162.62.4.0/23 list=pubgpc
+add address=162.62.6.0/23 list=pubgpc
+add address=162.62.8.0/23 list=pubgpc
+add address=162.62.10.0/23 list=pubgpc
+add address=162.62.12.0/23 list=pubgpc
+add address=162.62.14.0/23 list=pubgpc
+add address=162.62.16.0/23 list=pubgpc
+add address=162.62.18.0/23 list=pubgpc
+add address=162.62.20.0/23 list=pubgpc
+add address=162.62.22.0/23 list=pubgpc
+add address=162.62.24.0/23 list=pubgpc
+add address=162.62.26.0/23 list=pubgpc
+add address=162.62.28.0/23 list=pubgpc
+add address=162.62.32.0/23 list=pubgpc
+add address=162.62.34.0/23 list=pubgpc
+add address=162.62.36.0/23 list=pubgpc
+add address=162.62.38.0/23 list=pubgpc
+add address=162.62.40.0/23 list=pubgpc
+add address=162.62.80.0/20 list=pubgpc
+add address=162.62.96.0/23 list=pubgpc
+add address=162.62.98.0/23 list=pubgpc
+add address=162.62.100.0/23 list=pubgpc
+add address=162.62.102.0/23 list=pubgpc
+add address=162.62.104.0/23 list=pubgpc
+add address=162.62.106.0/23 list=pubgpc
+add address=162.62.108.0/23 list=pubgpc
+add address=162.62.110.0/23 list=pubgpc
+add address=162.62.128.0/23 list=pubgpc
+add address=162.62.128.0/24 list=pubgpc
+add address=162.62.130.0/23 comment=" " list=pubgpc
+add address=162.62.130.0/24 list=pubgpc
+add address=170.106.0.0/16 list=pubgpc
+add address=170.106.0.0/23 list=pubgpc
+add address=170.106.2.0/23 list=pubgpc
+add address=170.106.4.0/23 list=pubgpc
+add address=170.106.6.0/23 comment=" " list=pubgpc
+add address=170.106.8.0/23 list=pubgpc
+add address=170.106.10.0/23 list=pubgpc
+add address=170.106.12.0/23 list=pubgpc
+add address=170.106.14.0/23 list=pubgpc
+add address=170.106.16.0/23 comment=" " list=pubgpc
+add address=170.106.18.0/23 list=pubgpc
+add address=170.106.20.0/23 comment=" " list=pubgpc
+add address=170.106.22.0/23 list=pubgpc
+add address=170.106.24.0/23 list=pubgpc
+add address=170.106.26.0/23 list=pubgpc
+add address=170.106.28.0/23 list=pubgpc
+add address=170.106.30.0/23 list=pubgpc
+add address=170.106.32.0/22 list=pubgpc
+add address=170.106.36.0/22 list=pubgpc
+add address=170.106.40.0/22 list=pubgpc
+add address=170.106.44.0/22 list=pubgpc
+add address=170.106.48.0/22 list=pubgpc
+add address=170.106.52.0/22 list=pubgpc
+add address=170.106.56.0/22 list=pubgpc
+add address=170.106.60.0/22 list=pubgpc
+add address=170.106.64.0/23 list=pubgpc
+add address=170.106.66.0/23 list=pubgpc
+add address=170.106.68.0/23 list=pubgpc
+add address=170.106.70.0/23 list=pubgpc
+add address=170.106.72.0/23 list=pubgpc
+add address=170.106.74.0/23 list=pubgpc
+add address=170.106.76.0/23 list=pubgpc
+add address=170.106.78.0/23 list=pubgpc
+add address=170.106.80.0/23 list=pubgpc
+add address=170.106.82.0/23 list=pubgpc
+add address=170.106.84.0/23 list=pubgpc
+add address=170.106.86.0/23 list=pubgpc
+add address=170.106.88.0/23 list=pubgpc
+add address=170.106.90.0/23 list=pubgpc
+add address=170.106.92.0/23 list=pubgpc
+add address=170.106.94.0/23 list=pubgpc
+add address=170.106.128.0/23 list=pubgpc
+add address=170.106.128.0/24 list=pubgpc
+add address=170.106.129.0/24 list=pubgpc
+add address=170.106.130.0/23 list=pubgpc
+add address=170.106.130.0/24 list=pubgpc
+add address=170.106.132.0/23 list=pubgpc
+add address=182.254.116.0/24 list=pubgpc
+add address=182.254.118.0/24 list=pubgpc
+add address=203.205.134.0/24 list=pubgpc
+add address=203.205.135.0/24 list=pubgpc
+add address=203.205.136.0/23 list=pubgpc
+add address=203.205.138.0/23 list=pubgpc
+add address=203.205.140.0/24 list=pubgpc
+add address=203.205.141.0/24 list=pubgpc
+add address=203.205.143.0/24 list=pubgpc
+add address=203.205.144.0/24 list=pubgpc
+add address=203.205.145.0/24 list=pubgpc
+add address=203.205.147.0/24 list=pubgpc
+add address=203.205.148.0/24 list=pubgpc
+add address=203.205.149.0/24 list=pubgpc
+add address=203.205.150.0/24 list=pubgpc
+add address=203.205.151.0/24 list=pubgpc
+add address=203.205.152.0/24 list=pubgpc
+add address=203.205.155.0/24 list=pubgpc
+add address=203.205.156.0/24 list=pubgpc
+add address=203.205.157.0/24 list=pubgpc
+add address=203.205.158.0/24 list=pubgpc
+add address=203.205.159.0/24 list=pubgpc
+add address=203.205.187.0/24 list=pubgpc
+add address=203.205.188.0/24 list=pubgpc
+add address=203.205.190.0/24 list=pubgpc
+add address=203.205.191.0/24 list=pubgpc
+add address=203.205.193.0/24 list=pubgpc
+add address=203.205.208.0/24 list=pubgpc
+add address=203.205.209.0/24 list=pubgpc
+add address=203.205.210.0/24 list=pubgpc
+add address=203.205.211.0/24 list=pubgpc
+add address=203.205.219.0/24 list=pubgpc
+add address=203.205.220.0/23 list=pubgpc
+add address=203.205.222.0/23 list=pubgpc
+add address=203.205.224.0/24 list=pubgpc
+add address=203.205.236.0/23 list=pubgpc
+add address=203.205.238.0/23 list=pubgpc
+add address=203.205.240.0/24 list=pubgpc
+add address=203.205.242.0/24 list=pubgpc
+add address=203.205.244.0/24 list=pubgpc
+add address=203.205.245.0/24 list=pubgpc
+add address=203.205.248.0/23 list=pubgpc
+add address=203.205.250.0/23 list=pubgpc
+add address=203.205.252.0/23 list=pubgpc
+add address=203.205.254.0/23 list=pubgpc
+add address=210.180.74.0/23 list=pubgpc
+add address=211.152.128.0/23 list=pubgpc
+add address=211.152.130.0/23 list=pubgpc
+add address=211.152.132.0/23 list=pubgpc
+add address=211.152.136.0/23 list=pubgpc
+add address=211.152.146.0/23 list=pubgpc
+add address=211.152.148.0/23 list=pubgpc
+add address=211.152.152.0/23 list=pubgpc
+add address=211.152.154.0/23 list=pubgpc
+add address=211.152.156.0/24 list=pubgpc
+add address=183.192.0.0/10 list=pubgpc
+add address=183.192.0.0/16 list=pubgpc
+add address=183.192.196.0/22 list=pubgpc
+add address=169.56.160.0/19 list=pubgpc
+add address=169.48.192.0/18 list=pubgpc
+add address=103.252.163.0/24 list=pubgpc
+add address=218.213.224.0/19 list=pubgpc
+add address=218.213.248.0/24 list=pubgpc
+add address=58.247.0.0/16 list=pubgpc
+add address=49.51.234.0/23 list=pubgpc
+add address=47.74.128.0/17 list=pubgpc
+add address=47.74.128.0/18 list=pubgpc
+add address=182.254.0.0/16 list=pubgpc
+add address=182.254.0.0/17 list=pubgpc
+add address=50.18.192.0/20 list=pubgpc
+add address=49.51.128.0/20 list=pubgpc
+add address=49.51.136.0/23 list=pubgpc
+add address=169.57.128.0/17 list=pubgpc
+add address=58.248.0.0/13 list=pubgpc
+add address=58.250.0.0/16 list=pubgpc
+add address=58.250.136.0/22 list=pubgpc
+add address=58.250.136.0/23 list=pubgpc
+add address=49.51.132.0/23 list=pubgpc
+add address=58.251.0.0/16 list=pubgpc
+add address=58.251.106.0/23 list=pubgpc
+add address=23.32.0.0/11 comment=akamai list=pubgpc
+add address=23.49.60.0/24 comment=akamai list=pubgpc
+add address=23.111.68.0/22 list=pubgpc
+add address=139.59.0.0/18 list=pubgpc
+add address=194.132.32.0/24 list=pubgpc
+add address=23.111.72.0/22 list=pubgpc
+add address=37.221.192.0/21 comment="37.221.195.181 (trashvpn.de) " list=\
+    pubgpc
+add address=41.79.68.0/22 comment=\
+    "41.79.69.13 (41-79-69-13.as37349.aptus.co.tz) " list=pubgpc
+add address=41.79.68.0/23 comment=\
+    "41.79.69.13 (41-79-69-13.as37349.aptus.co.tz) " list=pubgpc
+add address=41.79.69.0/24 comment=\
+    "41.79.69.13 (41-79-69-13.as37349.aptus.co.tz) " list=pubgpc
+add address=45.76.32.0/21 comment="choppa llc" list=pubgpc
+add address=51.158.0.0/15 comment=\
+    "51.158.106.42 (42-106-158-51.rev.cloud.scaleway.com) " list=pubgpc
+add address=51.254.0.0/15 comment="51.255.197.148 (ovh.sqlserver.express) " \
+    list=pubgpc
+add address=93.95.224.0/21 comment=\
+    "93.95.226.165 (vps-93-95-226-165.1984.is) " list=pubgpc
+add address=107.170.0.0/17 comment="107.170.57.34 (cord.ventricle.us) " list=\
+    pubgpc
+add address=139.59.200.0/22 comment="digital ocean" list=pubgpc
+add address=146.185.160.0/20 comment="146.185.167.43 (securedns.eu) " list=\
+    pubgpc
+add address=146.185.167.0/24 comment="146.185.167.43 (securedns.eu) " list=\
+    pubgpc
+add address=178.128.240.0/20 comment="178.128.255.28 (mail.bottlepost.me) " \
+    list=pubgpc
+add address=178.216.200.0/21 comment="178.216.201.222 (dc1.soltysiak.com) " \
+    list=pubgpc
+add address=209.250.232.0/21 comment=\
+    "209.250.235.170 (209.250.235.170.vultr.com) " list=pubgpc
+add address=49.51.66.0/23 list=pubgpc
+add address=203.205.176.0/22 list=pubgpc
+add address=203.205.179.0/24 list=pubgpc
+add address=185.151.204.0/24 list=pubgpc
+add address=157.240.0.0/17 list=pubgpc
+add address=157.240.25.0/24 list=pubgpc
+add address=54.219.192.0/18 list=pubgpc
+add address=54.193.0.0/17 list=pubgpc
+add address=52.9.0.0/16 list=pubgpc
+add address=49.51.134.0/23 list=pubgpc
+add address=13.230.0.0/15 list=pubgpc
+add address=103.193.127.0/24 list=pubgpc
+add address=103.210.20.0/24 list=pubgpc
+add address=103.210.21.0/24 list=pubgpc
+add address=103.210.22.0/24 list=pubgpc
+add address=103.210.23.0/24 list=pubgpc
+add address=104.16.0.0/12 list=pubgpc
+add address=104.20.0.0/20 list=pubgpc
+add address=107.155.0.0/18 list=pubgpc
+add address=119.81.0.0/16 list=pubgpc
+add address=119.81.0.0/18 list=pubgpc
+add address=128.1.0.0/16 list=pubgpc
+add address=128.1.87.0/24 list=pubgpc
+add address=128.14.0.0/16 list=pubgpc
+add address=128.14.220.0/22 list=pubgpc
+add address=13.112.0.0/14 list=pubgpc
+add address=148.153.0.0/16 list=pubgpc
+add address=148.153.34.0/24 list=pubgpc
+add address=161.117.0.0/16 list=pubgpc
+add address=161.117.0.0/17 list=pubgpc
+add address=161.202.192.0/19 list=pubgpc
+add address=163.171.194.0/24 list=pubgpc
+add address=163.171.217.0/24 list=pubgpc
+add address=173.82.0.0/16 list=pubgpc
+add address=49.51.128.0/23 list=pubgpc
+add address=49.51.138.0/23 list=pubgpc
+add address=50.18.0.0/18 list=pubgpc
+add address=120.192.0.0/10 list=pubgpc
+add address=120.204.0.0/16 list=pubgpc
+add address=140.207.118.0/23 list=pubgpc
+add address=140.207.119.0/24 list=pubgpc
+add address=162.14.0.0/16 list=pubgpc
+add address=162.14.0.0/18 list=pubgpc
+add address=165.254.0.0/16 list=pubgpc
+add address=49.51.160.0/20 list=pubgpc
+add address=49.51.168.0/23 list=pubgpc
+add address=49.51.144.0/20 list=pubgpc
+add address=49.51.150.0/23 list=pubgpc
+add address=49.51.152.0/23 list=pubgpc
+add address=49.51.170.0/23 list=pubgpc
+add address=52.24.0.0/14 list=pubgpc
+add address=169.50.0.0/18 list=pubgpc
+add address=169.56.64.0/18 list=pubgpc
+add address=184.24.0.0/13 list=pubgpc
+add address=184.26.162.0/24 list=pubgpc
+add address=192.229.232.0/24 list=situsdownload
+add address=212.8.242.0/23 list=situsdownload
+add address=49.51.40.0/22 list=pubgpc
+add address=49.51.42.0/23 list=pubgpc
+add address=23.248.160.0/19 list=pubgpc
+add address=23.248.168.0/22 list=pubgpc
+add address=13.35.8.0/23 list=pubgpc
+add address=54.199.128.0/17 list=pubgpc
+add address=213.227.128.0/19 comment=leaseweb list=situsdownload
+add address=118.98.108.142 comment=smentara list=situsdownload
+add address=96.16.0.0/15 list=pubgpc
+add address=96.17.72.0/23 list=pubgpc
+add address=20.36.0.0/14 list=pubgpc
+add address=20.37.80.0/20 list=pubgpc
+
+add address=47.74.128.0/17 list=alibaba
+add address=47.74.128.0/18 list=alibaba
+add address=74.125.68.0/24 list=youtube
+add address=108.177.0.0/17 list=youtube
+add address=108.177.11.0/24 list=youtube
+add address=172.217.0.0/16 list=youtube
+add address=172.217.194.0/24 list=youtube
+add address=103.65.236.0/23 list=pubgpc
+add address=103.65.237.0/24 list=pubgpc
+add address=64.233.160.0/19 list=youtube
+add address=64.233.186.0/24 list=youtube
+add address=192.168.10.29 list=dnscrypt
+add address=192.168.10.30 list=dnscrypt
+add address=internetpositif.uzone.id list=bangsat
+add address=uzone.id list=bangsat
+add address=cfs1.uzone.id list=bangsat
+add address=cfs2.uzone.id list=bangsat
+add address=www.uzone.id list=bangsat
