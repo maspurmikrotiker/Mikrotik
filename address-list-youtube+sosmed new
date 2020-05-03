@@ -1,0 +1,538 @@
+# may/03/2020 11:16:22 by RouterOS 6.46.4
+# software id = BV6Q-PDAU
+#
+# model = RB1100Dx4
+# serial number = 9BD80BC324D3
+/ip firewall address-list
+add address=31.13.24.0/21 comment="Facebook Ireland" list=sosmed
+add address=31.13.64.0/18 comment="Facebook Ireland" list=sosmed
+add address=31.13.64.0/19 comment="Facebook Ireland" list=sosmed
+add address=31.13.64.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.65.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.66.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.67.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.68.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.69.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.70.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.71.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.72.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.73.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.74.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.75.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.76.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.78.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.80.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.81.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.82.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.83.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.84.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.85.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.86.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.87.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.90.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.91.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.92.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.94.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.95.0/24 comment="Facebook Ireland" list=sosmed
+add address=31.13.96.0/19 comment="Facebook Ireland" list=sosmed
+add address=45.64.40.0/22 comment="Facebook Singapore Pte Ltd. Singapore" \
+    list=sosmed
+add address=66.220.144.0/20 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=66.220.144.0/21 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=66.220.152.0/21 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=69.63.176.0/20 comment="Facebook, Inc. United States" list=sosmed
+add address=69.63.176.0/21 comment="Facebook, Inc. United States" list=sosmed
+add address=69.63.184.0/21 comment="Facebook, Inc. United States" list=sosmed
+add address=69.171.224.0/19 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=69.171.224.0/20 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=69.171.239.0/24 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=69.171.240.0/20 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=69.171.255.0/24 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=74.119.76.0/22 comment="Facebook, Inc. United States" list=sosmed
+add address=103.4.96.0/22 comment=" Temasek Avenue Singapore" list=sosmed
+add address=157.240.0.0/17 comment="Facebook, Inc. United States" list=sosmed
+add address=157.240.1.0/24 comment="Facebook, Inc. United States" list=sosmed
+add address=157.240.2.0/24 comment="Facebook, Inc. United States" list=sosmed
+add address=157.240.3.0/24 comment="Facebook, Inc. United States" list=sosmed
+add address=157.240.6.0/24 comment="Facebook, Inc. United States" list=sosmed
+add address=157.240.7.0/24 comment="Facebook, Inc. United States" list=sosmed
+add address=157.240.8.0/24 comment="Facebook, Inc. United States" list=sosmed
+add address=157.240.9.0/24 comment="Facebook, Inc. United States" list=sosmed
+add address=157.240.10.0/24 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=157.240.11.0/24 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=157.240.12.0/24 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=157.240.13.0/24 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=157.240.14.0/24 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=157.240.15.0/24 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=157.240.16.0/24 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=157.240.18.0/24 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=157.240.20.0/24 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=157.240.21.0/24 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=157.240.22.0/24 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=173.252.64.0/19 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=173.252.88.0/21 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=173.252.96.0/19 comment="Facebook, Inc. United States" list=\
+    sosmed
+add address=179.60.192.0/22 comment="Edge Network Services Ltd United States" \
+    list=sosmed
+add address=179.60.192.0/24 comment="Edge Network Services Ltd United States" \
+    list=sosmed
+add address=179.60.193.0/24 comment="Edge Network Services Ltd United States" \
+    list=sosmed
+add address=179.60.195.0/24 comment="Edge Network Services Ltd United States" \
+    list=sosmed
+add address=185.60.216.0/22 comment="Facebook Ireland" list=sosmed
+add address=185.60.216.0/24 comment="Facebook Ireland" list=sosmed
+add address=185.60.218.0/24 comment="Facebook Ireland" list=sosmed
+add address=185.60.219.0/24 comment="Facebook Ireland" list=sosmed
+add address=204.15.20.0/22 comment="Facebook, Inc. United States" list=sosmed
+add address=64.63.0.0/18 comment="MoPub, Inc. United States" list=sosmed
+add address=69.195.160.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.162.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.163.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.164.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.165.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.166.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.168.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.169.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.171.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.172.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.173.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.175.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.176.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.177.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.178.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.179.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.180.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.181.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.182.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.184.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.185.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.186.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.187.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.188.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.189.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.190.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=69.195.191.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=103.252.112.0/23 comment=\
+    "60 Robinson Road, #11-02 BEA Building, Singapore 068892. Singapore" \
+    list=sosmed
+add address=103.252.114.0/23 comment=\
+    "60 Robinson Road, #11-02 BEA Building, Singapore 068892. Singapore" \
+    list=sosmed
+add address=104.244.40.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=104.244.41.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=104.244.42.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=104.244.43.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=104.244.44.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=104.244.45.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=104.244.46.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=104.244.47.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=185.45.5.0/24 comment="Twitter International Company Ireland" \
+    list=sosmed
+add address=185.45.6.0/23 comment="Twitter International Company Ireland" \
+    list=sosmed
+add address=188.64.224.0/24 comment="Heron SAS France" list=sosmed
+add address=188.64.225.0/24 comment="Heron SAS France" list=sosmed
+add address=188.64.226.0/23 comment="Heron SAS France" list=sosmed
+add address=188.64.226.0/24 comment="Heron SAS France" list=sosmed
+add address=188.64.227.0/24 comment="Heron SAS France" list=sosmed
+add address=188.64.228.0/24 comment="Heron SAS France" list=sosmed
+add address=188.64.229.0/24 comment="Heron SAS France" list=sosmed
+add address=192.44.69.0/24 comment="Crashlytics, Inc United States" list=\
+    sosmed
+add address=192.133.76.0/22 comment="Twitter Inc. United States" list=sosmed
+add address=192.133.76.0/23 comment="Twitter Inc. United States" list=sosmed
+add address=199.16.156.0/22 comment="Twitter Inc. United States" list=sosmed
+add address=199.16.156.0/23 comment="Twitter Inc. United States" list=sosmed
+add address=199.59.148.0/22 comment="Twitter Inc. United States" list=sosmed
+add address=199.96.56.0/23 comment="Twitter Inc. United States" list=sosmed
+add address=199.96.56.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=199.96.57.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=199.96.58.0/23 comment="Twitter Inc. United States" list=sosmed
+add address=199.96.60.0/23 comment="Twitter Inc. United States" list=sosmed
+add address=199.96.60.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=199.96.61.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=199.96.62.0/23 comment="Twitter Inc. United States" list=sosmed
+add address=202.160.128.0/24 comment=\
+    "Twitter Asia Pacific Pte. Ltd. Singapore" list=sosmed
+add address=202.160.129.0/24 comment=\
+    "Twitter Asia Pacific Pte. Ltd. Singapore" list=sosmed
+add address=202.160.130.0/24 comment=\
+    "Twitter Asia Pacific Pte. Ltd. Singapore" list=sosmed
+add address=202.160.131.0/24 comment=\
+    "Twitter Asia Pacific Pte. Ltd. Singapore" list=sosmed
+add address=209.237.192.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.193.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.194.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.195.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.196.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.197.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.198.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.199.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.200.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.201.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.204.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.205.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.206.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.207.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.208.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.209.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.210.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.211.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.212.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.213.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.214.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.215.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.216.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.217.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.218.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.219.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.220.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.221.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.222.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=209.237.223.0/24 comment="Twitter Inc. United States" list=sosmed
+add address=91.108.56.0/24 comment=TELEGRAM list=sosmed
+add address=149.154.164.0/22 comment="Telegram Messenger Network GB" list=\
+    sosmed
+add address=31.13.93.0/24 comment=" Facebook " list=sosmed
+add address=199.201.67.0/24 comment=" Facebook Inc " list=sosmed
+add address=199.201.66.0/24 comment=" Facebook Inc " list=sosmed
+add address=199.201.65.0/24 comment=" Facebook Inc " list=sosmed
+add address=199.201.64.0/24 comment=" Facebook Inc " list=sosmed
+add address=199.201.64.0/22 comment=" Facebook Inc " list=sosmed
+add address=157.240.192.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.191.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.190.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.19.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.189.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.188.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.187.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.186.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.185.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.184.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.183.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.182.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.178.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.168.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.167.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.166.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.165.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.164.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.163.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.162.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.161.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.148.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.146.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.145.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.144.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.143.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.142.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.140.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.139.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.138.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.137.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.136.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.135.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.134.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.133.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.132.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.131.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.130.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=157.240.129.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=146.88.59.0/24 comment=" Facebook, Inc. " list=sosmed
+add address=129.134.0.0/17 comment=" Facebook, Inc." list=sosmed
+add address=157.240.192.0/18 comment=" Facebook, Inc. " list=sosmed
+add address=36.91.0.0/16 comment="telkom indonesia - bgp" list=sosmed
+add address=23.0.162.0/24 comment=akamai list=sosmed
+add address=23.52.171.0/24 comment=akamai list=sosmed
+add address=23.49.60.0/24 comment=akamai list=sosmed
+add address=23.67.57.0/24 comment=akamai list=sosmed
+add address=23.45.116.0/24 comment=akamai list=sosmed
+add address=23.67.0.0/16 comment=akamai list=sosmed
+add address=23.44.0.0/14 comment=akamai list=sosmed
+add address=23.49.240.0/20 comment=akamai list=sosmed
+
+add address=118.98.106.0/24 list=youtube
+add address=199.223.232.0/21 list=youtube
+add address=207.223.160.0/20 list=youtube
+add address=208.65.152.0/22 list=youtube
+add address=208.117.224.0/19 list=youtube
+add address=209.85.128.0/17 list=youtube
+add address=216.58.192.0/19 list=youtube
+add address=216.239.32.0/19 list=youtube
+add address=118.98.111.0/24 list=youtube
+add address=74.125.0.0/16 list=youtube
+add address=199.223.232.0/24 list=youtube
+add address=74.125.206.0/24 list=youtube
+add address=64.233.167.0/24 list=youtube
+add address=199.223.233.0/24 list=youtube
+add address=199.223.234.0/24 list=youtube
+add address=199.223.235.0/24 list=youtube
+add address=199.223.236.0/24 list=youtube
+add address=199.223.237.0/24 list=youtube
+add address=199.223.238.0/24 list=youtube
+add address=199.223.239.0/24 list=youtube
+add address=207.223.160.0/24 list=youtube
+add address=207.223.161.0/24 list=youtube
+add address=207.223.162.0/24 list=youtube
+add address=207.223.163.0/24 list=youtube
+add address=207.223.164.0/24 list=youtube
+add address=207.223.165.0/24 list=youtube
+add address=207.223.166.0/24 list=youtube
+add address=207.223.167.0/24 list=youtube
+add address=207.223.168.0/24 list=youtube
+add address=207.223.169.0/24 list=youtube
+add address=207.223.170.0/24 list=youtube
+add address=207.223.171.0/24 list=youtube
+add address=207.223.172.0/24 list=youtube
+add address=207.223.173.0/24 list=youtube
+add address=207.223.174.0/24 list=youtube
+add address=207.223.175.0/24 list=youtube
+add address=208.65.152.0/24 list=youtube
+add address=208.65.153.0/24 list=youtube
+add address=208.65.154.0/24 list=youtube
+add address=208.65.155.0/24 list=youtube
+add address=208.117.224.0/24 list=youtube
+add address=208.117.225.0/24 list=youtube
+add address=208.117.226.0/24 list=youtube
+add address=208.117.227.0/24 list=youtube
+add address=208.117.228.0/24 list=youtube
+add address=208.117.229.0/24 list=youtube
+add address=208.117.230.0/24 list=youtube
+add address=208.117.231.0/24 list=youtube
+add address=208.117.232.0/24 list=youtube
+add address=208.117.233.0/24 list=youtube
+add address=208.117.234.0/24 list=youtube
+add address=208.117.235.0/24 list=youtube
+add address=208.117.236.0/24 list=youtube
+add address=208.117.237.0/24 list=youtube
+add address=208.117.238.0/24 list=youtube
+add address=208.117.239.0/24 list=youtube
+add address=208.117.240.0/24 list=youtube
+add address=208.117.241.0/24 list=youtube
+add address=208.117.242.0/24 list=youtube
+add address=208.117.243.0/24 list=youtube
+add address=208.117.244.0/24 list=youtube
+add address=208.117.245.0/24 list=youtube
+add address=208.117.246.0/24 list=youtube
+add address=208.117.247.0/24 list=youtube
+add address=208.117.248.0/24 list=youtube
+add address=208.117.249.0/24 list=youtube
+add address=208.117.250.0/24 list=youtube
+add address=208.117.251.0/24 list=youtube
+add address=208.117.252.0/24 list=youtube
+add address=208.117.253.0/24 list=youtube
+add address=208.117.254.0/24 list=youtube
+add address=208.117.255.0/24 list=youtube
+add address=209.85.128.0/24 list=youtube
+add address=209.85.129.0/24 list=youtube
+add address=209.85.130.0/24 list=youtube
+add address=209.85.131.0/24 list=youtube
+add address=209.85.132.0/24 list=youtube
+add address=209.85.133.0/24 list=youtube
+add address=209.85.134.0/24 list=youtube
+add address=209.85.135.0/24 list=youtube
+add address=209.85.136.0/24 list=youtube
+add address=209.85.137.0/24 list=youtube
+add address=209.85.138.0/24 list=youtube
+add address=209.85.139.0/24 list=youtube
+add address=209.85.140.0/24 list=youtube
+add address=209.85.141.0/24 list=youtube
+add address=209.85.142.0/24 list=youtube
+add address=209.85.143.0/24 list=youtube
+add address=209.85.144.0/24 list=youtube
+add address=209.85.145.0/24 list=youtube
+add address=209.85.146.0/24 list=youtube
+add address=209.85.147.0/24 list=youtube
+add address=209.85.148.0/24 list=youtube
+add address=209.85.149.0/24 list=youtube
+add address=209.85.150.0/24 list=youtube
+add address=209.85.151.0/24 list=youtube
+add address=209.85.152.0/24 list=youtube
+add address=209.85.153.0/24 list=youtube
+add address=209.85.154.0/24 list=youtube
+add address=209.85.155.0/24 list=youtube
+add address=209.85.156.0/24 list=youtube
+add address=209.85.157.0/24 list=youtube
+add address=209.85.158.0/24 list=youtube
+add address=209.85.159.0/24 list=youtube
+add address=209.85.160.0/24 list=youtube
+add address=209.85.161.0/24 list=youtube
+add address=209.85.162.0/24 list=youtube
+add address=209.85.163.0/24 list=youtube
+add address=209.85.164.0/24 list=youtube
+add address=209.85.165.0/24 list=youtube
+add address=209.85.166.0/24 list=youtube
+add address=209.85.167.0/24 list=youtube
+add address=209.85.168.0/24 list=youtube
+add address=209.85.169.0/24 list=youtube
+add address=209.85.170.0/24 list=youtube
+add address=209.85.171.0/24 list=youtube
+add address=209.85.172.0/24 list=youtube
+add address=209.85.173.0/24 list=youtube
+add address=209.85.174.0/24 list=youtube
+add address=209.85.175.0/24 list=youtube
+add address=209.85.176.0/24 list=youtube
+add address=209.85.177.0/24 list=youtube
+add address=209.85.178.0/24 list=youtube
+add address=209.85.179.0/24 list=youtube
+add address=209.85.180.0/24 list=youtube
+add address=209.85.181.0/24 list=youtube
+add address=209.85.182.0/24 list=youtube
+add address=209.85.183.0/24 list=youtube
+add address=209.85.184.0/24 list=youtube
+add address=209.85.185.0/24 list=youtube
+add address=209.85.186.0/24 list=youtube
+add address=209.85.187.0/24 list=youtube
+add address=209.85.188.0/24 list=youtube
+add address=209.85.189.0/24 list=youtube
+add address=209.85.190.0/24 list=youtube
+add address=209.85.191.0/24 list=youtube
+add address=209.85.192.0/24 list=youtube
+add address=209.85.193.0/24 list=youtube
+add address=209.85.194.0/24 list=youtube
+add address=209.85.195.0/24 list=youtube
+add address=209.85.196.0/24 list=youtube
+add address=209.85.197.0/24 list=youtube
+add address=209.85.198.0/24 list=youtube
+add address=209.85.199.0/24 list=youtube
+add address=209.85.200.0/24 list=youtube
+add address=209.85.201.0/24 list=youtube
+add address=209.85.202.0/24 list=youtube
+add address=209.85.203.0/24 list=youtube
+add address=209.85.204.0/24 list=youtube
+add address=209.85.205.0/24 list=youtube
+add address=209.85.206.0/24 list=youtube
+add address=209.85.207.0/24 list=youtube
+add address=209.85.208.0/24 list=youtube
+add address=209.85.209.0/24 list=youtube
+add address=209.85.210.0/24 list=youtube
+add address=209.85.211.0/24 list=youtube
+add address=209.85.212.0/24 list=youtube
+add address=209.85.213.0/24 list=youtube
+add address=209.85.214.0/24 list=youtube
+add address=209.85.215.0/24 list=youtube
+add address=209.85.216.0/24 list=youtube
+add address=209.85.217.0/24 list=youtube
+add address=209.85.218.0/24 list=youtube
+add address=209.85.219.0/24 list=youtube
+add address=209.85.220.0/24 list=youtube
+add address=209.85.221.0/24 list=youtube
+add address=209.85.222.0/24 list=youtube
+add address=209.85.223.0/24 list=youtube
+add address=209.85.224.0/24 list=youtube
+add address=209.85.225.0/24 list=youtube
+add address=209.85.226.0/24 list=youtube
+add address=209.85.227.0/24 list=youtube
+add address=209.85.228.0/24 list=youtube
+add address=209.85.229.0/24 list=youtube
+add address=209.85.230.0/24 list=youtube
+add address=209.85.231.0/24 list=youtube
+add address=209.85.232.0/24 list=youtube
+add address=209.85.233.0/24 list=youtube
+add address=209.85.234.0/24 list=youtube
+add address=209.85.235.0/24 list=youtube
+add address=209.85.236.0/24 list=youtube
+add address=209.85.237.0/24 list=youtube
+add address=209.85.238.0/24 list=youtube
+add address=209.85.239.0/24 list=youtube
+add address=209.85.240.0/24 list=youtube
+add address=209.85.241.0/24 list=youtube
+add address=209.85.242.0/24 list=youtube
+add address=209.85.243.0/24 list=youtube
+add address=209.85.244.0/24 list=youtube
+add address=209.85.245.0/24 list=youtube
+add address=209.85.246.0/24 list=youtube
+add address=209.85.247.0/24 list=youtube
+add address=209.85.248.0/24 list=youtube
+add address=209.85.249.0/24 list=youtube
+add address=209.85.250.0/24 list=youtube
+add address=209.85.251.0/24 list=youtube
+add address=209.85.252.0/24 list=youtube
+add address=209.85.253.0/24 list=youtube
+add address=209.85.254.0/24 list=youtube
+add address=209.85.255.0/24 list=youtube
+add address=216.58.192.0/24 list=youtube
+add address=216.58.193.0/24 list=youtube
+add address=216.58.194.0/24 list=youtube
+add address=216.58.195.0/24 list=youtube
+add address=216.58.196.0/24 list=youtube
+add address=216.58.197.0/24 list=youtube
+add address=216.58.198.0/24 list=youtube
+add address=216.58.199.0/24 list=youtube
+add address=216.58.200.0/24 list=youtube
+add address=216.58.201.0/24 list=youtube
+add address=216.58.202.0/24 list=youtube
+add address=216.58.203.0/24 list=youtube
+add address=216.58.204.0/24 list=youtube
+add address=216.58.205.0/24 list=youtube
+add address=216.58.206.0/24 list=youtube
+add address=216.58.207.0/24 list=youtube
+add address=216.58.208.0/24 list=youtube
+add address=216.58.209.0/24 list=youtube
+add address=216.58.219.0/24 list=youtube
+add address=216.58.218.0/24 list=youtube
+add address=216.58.217.0/24 list=youtube
+add address=216.58.216.0/24 list=youtube
+add address=216.58.215.0/24 list=youtube
+add address=216.58.214.0/24 list=youtube
+add address=216.58.213.0/24 list=youtube
+add address=216.58.212.0/24 list=youtube
+add address=216.58.211.0/24 list=youtube
+add address=216.58.210.0/24 list=youtube
+add address=216.58.220.0/24 list=youtube
+add address=216.58.221.0/24 list=youtube
+add address=216.58.222.0/24 list=youtube
+add address=216.58.223.0/24 list=youtube
+add address=216.239.57.0/24 list=youtube
+add address=216.239.56.0/24 list=youtube
+add address=216.239.55.0/24 list=youtube
+add address=216.239.54.0/24 list=youtube
+add address=216.239.36.0/24 list=youtube
+add address=216.239.37.0/24 list=youtube
+add address=216.239.38.0/24 list=youtube
+add address=216.239.39.0/24 list=youtube
+add address=216.239.40.0/24 list=youtube
+add address=216.239.41.0/24 list=youtube
+add address=216.239.42.0/24 list=youtube
+add address=216.239.43.0/24 list=youtube
+add address=216.239.46.0/24 list=youtube
+add address=216.239.47.0/24 list=youtube
+add address=216.239.48.0/24 list=youtube
+add address=216.239.49.0/24 list=youtube
+add address=216.239.51.0/24 list=youtube
+add address=216.239.50.0/24 list=youtube
+add address=216.239.35.0/24 list=youtube
+add address=216.239.34.0/24 list=youtube
+add address=216.239.52.0/24 list=youtube
+add address=216.239.33.0/24 list=youtube
+add address=216.239.32.0/24 list=youtube
+add address=216.239.59.0/24 list=youtube
+add address=216.239.58.0/24 list=youtube
+add address=216.239.60.0/24 list=youtube
+add address=216.239.61.0/24 list=youtube
+add address=216.239.53.0/24 list=youtube
+add address=216.239.63.0/24 list=youtube
+add address=216.239.62.0/24 list=youtube
