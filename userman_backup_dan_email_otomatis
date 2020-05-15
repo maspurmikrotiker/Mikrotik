@@ -23,4 +23,4 @@ port : 587
 TLS :yes
 from : radcloud70@gmail.com
 user: radcloud70
-admin: admin2135
+pass: JusTomat5000
