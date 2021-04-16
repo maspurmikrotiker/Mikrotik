@@ -6,7 +6,7 @@
  # ip route list | grep default
 
 =proses install
-wget https://download.mikrotik.com/routeros/6.44.5/chr-6.44.5.img.zip -O chr.img.zip
+wget https://download.mikrotik.com/routeros/6.47.9/chr-6.47.9.img.zip -O chr.img.zip
 gunzip -c chr.img.zip > chr.img
 mount -o loop,offset=33554944 chr.img /mnt
 
